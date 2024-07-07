@@ -7,10 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'bg_image' : "url('/src/images/johnston.jpg')",
+      backgroundImage : {
+        'johnston':"url('/images/mainImg.png')",
       },
-    },
+    }, 
   },
   plugins: [],
 };
