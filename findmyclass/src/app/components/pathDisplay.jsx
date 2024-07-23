@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function PathDisplay() {
+export default function PathDisplay ({ inputValue }) {
   return (
     <div>
       <Card className="flex flex-col justify-center items-center bg-black border-0 shadow-2xl my-10 w-[650px]">
@@ -31,4 +31,4 @@ export default function PathDisplay() {
       </Card>
     </div>
   );
-}
+};
