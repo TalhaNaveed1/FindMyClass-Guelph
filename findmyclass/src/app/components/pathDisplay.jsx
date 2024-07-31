@@ -9,6 +9,9 @@ import {
 } from "@/components/ui/card";
 
 export default function PathDisplay({ inputValue }) {
+  inputValue = inputValue.replace(/\s+/g, '').toUpperCase();
+  // console.log(inputValue)
+
   return (
     <div className="flex flex-row">
       <div className="flex flex-col justify-center items-center bg-black shadow-2xl my-10 py-10 rounded-xl">
@@ -22,7 +25,7 @@ export default function PathDisplay({ inputValue }) {
         <div className="text-white font-semibold font-sans text-2xl mt-5">
           <p>#1</p>
           <div className="flex justify-center">
-            <p className="w-8 border-t-2 border-white mt-10"></p>
+            <p className="w-8 border-t-2 border-white mt-10 pr-5"></p>
           </div>
         </div>
         <div>
