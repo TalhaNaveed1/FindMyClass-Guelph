@@ -8,12 +8,11 @@ export default function Page() {
   const [inputValue, setInputValue] = useState("");
 
   const updateInput = (e) => {
-    e.preventDefault();
     setInputValue(e.target.value);
-    
   };
 
-  const findPath = () => {
+  const findPath = (e) => {
+    e.preventDefault();
     console.log(inputValue);
   };
 
@@ -41,7 +40,7 @@ export default function Page() {
             type="text"
             className="p-3 w-96 h-16 rounded-xl"
             placeholder="Enter a class code..."
-            onChange={(e) => updateInput(e.target.value)}
+            onChange={updateInput}
             value={inputValue}
           />
         </form>
@@ -50,7 +49,7 @@ export default function Page() {
           View all classes here &gt;&gt;&gt;
         </a>
       </div>
-      <PathDisplay inputValue={inputValue}/>
+      <PathDisplay inputValue={inputValue} />
     </main>
   );
 }
