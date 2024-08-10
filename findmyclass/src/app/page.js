@@ -7,6 +7,8 @@ import PathDisplay from "./components/pathDisplay";
 export default function Page() {
   const [inputValue, setInputValue] = useState("");
 
+
+
   const updateInput = (e) => {
     setInputValue(e.target.value);
   };
