@@ -1,29 +1,20 @@
 import { supabase } from "@/lib/supabase/client";
 
-export async function getServerSideProps(context) {
-  const { classCode } = context.query;
+export async function fetchData(classCode) {
   const { data, error } = await supabase
     .from("FindMyClass_Images")
-    .select("CardDescriptions, ImageNames")
-    .eq("Id", classCode);
+    .select("card_descriptions, image_names")
+    .eq("id", classCode);
 
   if (error) {
     console.error("Error fetching data:", error);
-    return { props: { cardDescriptions: null, imageNames: null, classCode } };
+    return { cardDescriptions: null, imageNames: null };
   }
 
-  return {
-    props: {
-      cardDescriptions: data.length > 0 ? data[0].CardDescriptions : null,
-      imageNames: data.length > 0 ? data[0].ImageNames : null,
-      classCode,
-    },
-  };
-}
+  console.log("Supabase data:", data);
 
-export default function fetchData({ cardDescriptions, imageNames }) {
   return {
-    cardDescriptions,
-    imageNames,
+      cardDescriptions: data.length > 0 ? data[0].card_descriptions : null,
+      imageNames: data.length > 0 ? data[0].image_names : null,
   };
 }

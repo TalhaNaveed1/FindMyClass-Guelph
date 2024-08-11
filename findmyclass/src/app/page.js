@@ -3,19 +3,29 @@
 import React, { useState } from "react";
 import "./globals.css";
 import PathDisplay from "./components/pathDisplay";
+import { fetchData } from "./fetchData";
+import { supabase } from "@/lib/supabase/client";
 
 export default function Page() {
+  console.log(supabase)
   const [inputValue, setInputValue] = useState("");
-
-
+  const [classData, setClassData] = useState({
+    cardDescriptions: null,
+    imageNames: null,
+  });
 
   const updateInput = (e) => {
     setInputValue(e.target.value);
   };
 
-  const findPath = (e) => {
+  const findPath = async (e) => {
     e.preventDefault();
-    console.log(inputValue);
+    const classCode = inputValue.replace(/\s+/g, "").toUpperCase();
+    console.log(classCode)
+    // const data = await fetchData(classCode);
+    const data = await fetchData('ALEX200');
+    console.log(data);
+    setClassData(data);
   };
 
   return (
@@ -51,7 +61,11 @@ export default function Page() {
           View all classes here &gt;&gt;&gt;
         </a>
       </div>
-      <PathDisplay inputValue={inputValue} />
+      <PathDisplay
+        inputValue={inputValue}
+        cardDescriptions={classData.cardDescriptions}
+        imageNames={classData.imageNames}
+      />
     </main>
   );
 }
