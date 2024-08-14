@@ -4,10 +4,8 @@ import React, { useState } from "react";
 import "./globals.css";
 import PathDisplay from "./components/pathDisplay";
 import { fetchData } from "./fetchData";
-import { supabase } from "@/lib/supabase/client";
 
 export default function Page() {
-  console.log(supabase)
   const [inputValue, setInputValue] = useState("");
   const [classData, setClassData] = useState({
     cardDescriptions: null,
@@ -21,11 +19,26 @@ export default function Page() {
   const findPath = async (e) => {
     e.preventDefault();
     const classCode = inputValue.replace(/\s+/g, "").toUpperCase();
-    console.log(classCode)
-    // const data = await fetchData(classCode);
-    const data = await fetchData('ALEX200');
-    console.log(data);
+    const data = await fetchData(classCode);
+    console.log("DATA", data);
     setClassData(data);
+    createPath(data);
+  };
+
+  const createPath = (data) => {
+    const masterList = [];
+
+    for (let index = 0; index < data.cardDescriptions.length; index++) {
+      const tempList = []
+      tempList.push(
+        index + 1,
+        data.cardDescriptions[index],
+        data.imageNames[index]
+      );
+      masterList.push(tempList);
+    }
+
+    console.log(masterList);
   };
 
   return (

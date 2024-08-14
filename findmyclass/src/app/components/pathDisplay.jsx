@@ -13,9 +13,6 @@ export default function PathDisplay({
   cardDescriptions,
   imageNames,
 }) {
-  // inputValue = inputValue.replace(/\s+/g, "").toUpperCase();
-  // console.log(inputValue)
-  // console.log(cardDescriptions);
 
   return (
     <div className="flex flex-row items-center justify-center">
