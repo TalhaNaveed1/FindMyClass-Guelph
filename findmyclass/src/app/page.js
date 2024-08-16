@@ -11,6 +11,7 @@ export default function Page() {
     cardDescriptions: null,
     imageNames: null,
   });
+  const [masterList, setMasterList] = useState([]);
 
   const updateInput = (e) => {
     setInputValue(e.target.value);
@@ -26,19 +27,20 @@ export default function Page() {
   };
 
   const createPath = (data) => {
-    const masterList = [];
+    const tempMasterList = [];
 
     for (let index = 0; index < data.cardDescriptions.length; index++) {
-      const tempList = []
+      const tempList = [];
       tempList.push(
         index + 1,
         data.cardDescriptions[index],
         data.imageNames[index]
       );
-      masterList.push(tempList);
+      tempMasterList.push(tempList);
     }
 
-    console.log(masterList);
+    setMasterList(tempMasterList);
+    console.log(tempMasterList);
   };
 
   return (
@@ -74,11 +76,7 @@ export default function Page() {
           View all classes here &gt;&gt;&gt;
         </a>
       </div>
-      <PathDisplay
-        inputValue={inputValue}
-        cardDescriptions={classData.cardDescriptions}
-        imageNames={classData.imageNames}
-      />
+      {masterList.length > 0 && <PathDisplay masterList={masterList} />}
     </main>
   );
 }
