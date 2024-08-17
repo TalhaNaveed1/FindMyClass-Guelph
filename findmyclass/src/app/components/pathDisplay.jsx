@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Card,
   CardContent,
@@ -14,10 +14,10 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  CarouselApi,
 } from "@/components/ui/carousel";
 
-export default function PathDisplay({ masterList }) {
-  console.log("Here");
+export default function PathDisplay({ masterList, carouselIndex }) {
   return (
     <div className="flex flex-row items-center justify-center">
       <Carousel className="w-full max-w-screen-sm">

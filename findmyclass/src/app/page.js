@@ -12,6 +12,8 @@ export default function Page() {
     imageNames: null,
   });
   const [masterList, setMasterList] = useState([]);
+  const [carouselIndex, setCarouselIndex] = useState(0);
+  const [myKey, setMyKey] = useState(0);
 
   const updateInput = (e) => {
     setInputValue(e.target.value);
@@ -24,6 +26,7 @@ export default function Page() {
     console.log("DATA", data);
     setClassData(data);
     createPath(data);
+    setMyKey((prevKey) => prevKey + 1);
   };
 
   const createPath = (data) => {
@@ -40,13 +43,14 @@ export default function Page() {
     }
 
     setMasterList(tempMasterList);
+    setCarouselIndex(0);
     console.log(tempMasterList);
   };
 
   return (
     <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full">
       <div className="flex flex-col justify-center items-center text-center">
-        <div className="flex flex-row">
+        <div className="flex flex-row mt-10">
           <h1 className="text-white font-sans font-bold text-8xl">FindMy</h1>
           <h1 className="text-blue-700 font-sans font-bold text-8xl">
             <em>Class</em>
@@ -76,7 +80,13 @@ export default function Page() {
           View all classes here &gt;&gt;&gt;
         </a>
       </div>
-      {masterList.length > 0 && <PathDisplay masterList={masterList} />}
+      {masterList.length > 0 && (
+        <PathDisplay
+          key={myKey}
+          masterList={masterList}
+          carouseLIndex={carouselIndex}
+        />
+      )}
     </main>
   );
 }
