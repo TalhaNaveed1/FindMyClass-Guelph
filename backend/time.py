@@ -27,12 +27,35 @@ def k_nearest_neighbours(data,p,k):
         temp_distance = euclidean_distance(p,point)
         EC_distances.append((point,temp_distance))
     
-    for dist in EC_distances:
-        print(dist)
+    # for dist in EC_distances:
+    #     print(dist)
     print('\n')
-    EC_distances.sort(key=lambda x: x[0])
-    for dist in EC_distances:
-        print(dist)
+    EC_distances.sort(key=lambda x: x[1])
+    # for dist in EC_distances:
+    #     print(dist)
+    
+    knn = EC_distances[:k]
+    print(knn)
+    
+    traffic_level = {'low':0,'mid':0,'high':0}
+    for neighbour, _ in knn:
+        college = neighbour[-2]
+        stone = neighbour[-1]
+        if (college == '0'):
+            traffic_level['low'] += 1
+        elif (college == '1'):
+            traffic_level['mid'] += 1
+        else :
+            traffic_level['high'] += 1
+        
+        if (stone == '0'):
+                traffic_level['low'] += 1
+        elif (stone == '1'):
+            traffic_level['mid'] += 1
+        else :
+            traffic_level['high'] += 1
+    
+    print(traffic_level)
 
 
 myData = read_data()
