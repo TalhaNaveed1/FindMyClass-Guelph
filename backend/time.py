@@ -1,6 +1,5 @@
 import math
 import pandas
-import numpy
 
 def read_data():
     # Day of Week: Monday: 0, Sunday: 6
@@ -9,7 +8,6 @@ def read_data():
     file_path = "files/data.csv"
     data_path = pandas.read_csv(file_path)
     data = data_path.values.tolist()
-    # print(data)
     return data
 
 def euclidean_distance(p1,p2):
@@ -27,17 +25,10 @@ def k_nearest_neighbours(data,p,k):
         temp_distance = euclidean_distance(p,point)
         EC_distances.append((point,temp_distance))
     
-    # for dist in EC_distances:
-    #     print(dist)
-    print('\n')
     EC_distances.sort(key=lambda x: x[1])
-    # for dist in EC_distances:
-    #     print(dist)
-    
     knn = EC_distances[:k]
-    print(knn)
-    
     traffic_level = {'low':0,'mid':0,'high':0}
+    
     for neighbour, _ in knn:
         college = neighbour[-2]
         stone = neighbour[-1]
@@ -54,10 +45,8 @@ def k_nearest_neighbours(data,p,k):
             traffic_level['mid'] += 1
         else:
             traffic_level['high'] += 1
-    
-    print(traffic_level)
+
     return_traffic_level = max(traffic_level, key=traffic_level.get)
-    print(return_traffic_level)
     
     return return_traffic_level
 
