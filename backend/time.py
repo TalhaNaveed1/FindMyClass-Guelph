@@ -10,15 +10,23 @@ def read_data():
     file_path = "files/data.csv"
     data_path = pandas.read_csv(file_path)
     data = data_path.values.tolist()
-    print(data)
+    # print(data)
+    return data
 
 def euclidean_distance(p1,p2):
     print("Euclidean Distance")
-    return
+    EC_distance = 0
+    for index in range(len(p1) - 2):
+        EC_distance += (p1[index] - p2[index]) ** 2
+    
+    return math.sqrt(EC_distance)
+    
 
 def k_nearest_neighbours(data,p,k):
     print("Testing k_nearest_neighbours")
     return
 
 
-read_data()
+myData = read_data()
+myEuclideanDistance = euclidean_distance(myData[0],myData[1])
+print(myEuclideanDistance)
