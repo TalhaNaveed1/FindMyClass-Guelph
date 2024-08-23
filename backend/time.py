@@ -41,25 +41,30 @@ def k_nearest_neighbours(data,p,k):
     for neighbour, _ in knn:
         college = neighbour[-2]
         stone = neighbour[-1]
-        if (college == '0'):
+        if (college == 0):
             traffic_level['low'] += 1
-        elif (college == '1'):
+        elif (college == 1):
             traffic_level['mid'] += 1
         else :
             traffic_level['high'] += 1
         
-        if (stone == '0'):
+        if (stone == 0):
                 traffic_level['low'] += 1
-        elif (stone == '1'):
+        elif (stone == 1):
             traffic_level['mid'] += 1
-        else :
+        else:
             traffic_level['high'] += 1
     
     print(traffic_level)
+    return_traffic_level = max(traffic_level, key=traffic_level.get)
+    print(return_traffic_level)
+    
+    return return_traffic_level
 
 
 myData = read_data()
 test = [8,0,0]
 k = 3
-k_nearest_neighbours(myData,test,k)
+predicted_tf_level = k_nearest_neighbours(myData,test,k)
+print(f'{"The predicted traffic level will be: "}{predicted_tf_level}')
 
