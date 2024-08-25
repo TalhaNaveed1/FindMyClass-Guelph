@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import "./globals.css";
 import PathDisplay from "./components/pathDisplay";
-import { fetchData } from "./fetchData";
+import { fetchData } from "./utils/fetchData";
 
 export default function Page() {
   const [inputValue, setInputValue] = useState("");
