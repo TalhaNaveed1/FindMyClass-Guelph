@@ -61,6 +61,7 @@ def run_prediction(test_point):
     myData = read_data()
     k = 3
     predicted_tf_level = k_nearest_neighbours(myData,test_point,k)
+    print(predicted_tf_level)
     
     return predicted_tf_level
 

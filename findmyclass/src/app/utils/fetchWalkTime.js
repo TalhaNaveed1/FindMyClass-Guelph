@@ -10,7 +10,7 @@ export async function fetchWalkTime() {
   console.log(month);
   console.log(hour);
 
-  const backendResponse = await fetch("http://127.0.0.1:5000/predict", {
+  const backendResponse = await fetch("http://127.0.0.1:8080/predict", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -23,6 +23,7 @@ export async function fetchWalkTime() {
   });
 
   const predictionData = await backendResponse.json();
-  return predictionData.predictedClass;
+  console.log(predictionData)
+  return predictionData.predictedLevel;
 
 }
