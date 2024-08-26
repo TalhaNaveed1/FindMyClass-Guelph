@@ -51,9 +51,16 @@ def k_nearest_neighbours(data,p,k):
     return return_traffic_level
 
 
-myData = read_data()
-test = [8,0,0]
-k = 3
-predicted_tf_level = k_nearest_neighbours(myData,test,k)
-print(f'{"The predicted traffic level will be: "}{predicted_tf_level}')
+# myData = read_data()
+# test = [8,0,0]
+# k = 3
+# predicted_tf_level = k_nearest_neighbours(myData,test,k)
+# print(f'{"The predicted traffic level will be: "}{predicted_tf_level}')
+
+def run_prediction(test_point):
+    myData = read_data()
+    k = 3
+    predicted_tf_level = k_nearest_neighbours(myData,test_point,k)
+    
+    return predicted_tf_level
 

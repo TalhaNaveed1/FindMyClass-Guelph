@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import WalkTime from "./WalkTime";
 import {
   Card,
   CardContent,
@@ -54,6 +55,7 @@ export default function PathDisplay({ masterList, carouselIndex }) {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
+      <WalkTime />
     </div>
   );
 }
