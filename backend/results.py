@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from waitress import serve
 from traffic_time import run_prediction
 
 app = Flask(__name__)
@@ -16,4 +17,5 @@ def predict():
     return jsonify({'predictedLevel': predicted_level})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # from waitress import serve
+    serve(app, host="0.0.0.0",port="8080")
