@@ -12,7 +12,6 @@ export default function Page() {
     imageNames: null,
   });
   const [masterList, setMasterList] = useState([]);
-  const [carouselIndex, setCarouselIndex] = useState(0);
   const [myKey, setMyKey] = useState(0);
 
   const updateInput = (e) => {
@@ -43,7 +42,6 @@ export default function Page() {
     }
 
     setMasterList(tempMasterList);
-    setCarouselIndex(0);
     console.log(tempMasterList);
   };
 
@@ -84,7 +82,6 @@ export default function Page() {
         <PathDisplay
           key={myKey}
           masterList={masterList}
-          carouseLIndex={carouselIndex}
         />
       )}
     </main>
