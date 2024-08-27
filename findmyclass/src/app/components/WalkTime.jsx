@@ -16,8 +16,8 @@ export default function WalkTime() {
 
     return (
         <div>
-            <h1>Predicted Time:</h1>
-            <h2>{prediction}</h2>
+            <h1 className="text-white text-4xl">Predicted Time:</h1>
+            <h2 className="text-white text-4xl">{prediction}</h2>
         </div>
     )
 }
