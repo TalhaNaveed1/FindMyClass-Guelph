@@ -18,7 +18,7 @@ import {
   CarouselApi,
 } from "@/components/ui/carousel";
 
-export default function PathDisplay({ masterList, carouselIndex }) {
+export default function PathDisplay({ masterList, mapsCode }) {
   return (
     <div className="flex flex-row items-center gap-20">
       <div className="mr-12">

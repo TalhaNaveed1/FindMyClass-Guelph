@@ -13,6 +13,7 @@ export default function Page() {
   });
   const [masterList, setMasterList] = useState([]);
   const [myKey, setMyKey] = useState(0);
+  const [mapsCode, setMapsCode] = useState(null);
 
   const updateInput = (e) => {
     setInputValue(e.target.value);
@@ -21,6 +22,7 @@ export default function Page() {
   const findPath = async (e) => {
     e.preventDefault();
     const classCode = inputValue.replace(/\s+/g, "").toUpperCase();
+    setMapsCode(classCode);
     const data = await fetchData(classCode);
     console.log("DATA", data);
     setClassData(data);
@@ -82,6 +84,7 @@ export default function Page() {
         <PathDisplay
           key={myKey}
           masterList={masterList}
+          mapsCode={mapsCode}
         />
       )}
     </main>
