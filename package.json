@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
     "@supabase/supabase-js": "^2.45.1",
     "embla-carousel-react": "^8.1.8"
   }
