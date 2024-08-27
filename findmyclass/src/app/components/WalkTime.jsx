@@ -13,6 +13,22 @@ export default function WalkTime() {
         getPrediction();
     }, []);
 
+    let imgSrc = '';
+    let description = '';
+
+    if (prediction === 'low') {
+        imgSrc = '/traffic_images/low.png';
+        description = 'Expect a quick travel time to your class';
+    }
+    else if (prediction === 'mid') {
+        imgSrc = '/traffic_images/mid.png';
+        description = 'Expect the average travel time to your class';
+    }
+    else {
+        imgSrc = '/traffic_images/high.png';
+        description = 'Expect a longer travel time to your class';
+    }
+
 
     return (
         <div className="flex flex-col bg-black p-12 rounded-xl items-center">
