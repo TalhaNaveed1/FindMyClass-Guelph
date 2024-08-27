@@ -20,9 +20,11 @@ import {
 
 export default function PathDisplay({ masterList, carouselIndex }) {
   return (
-    <div className="flex flex-row items-center justify-center">
+    <div className="flex flex-row items-center gap-20">
+      <div className="mr-12">
       <WalkTime />
-      <Carousel className="w-full max-w-screen-sm">
+      </div>
+      <Carousel className="w-full max-w-screen-sm ml-12">
         <CarouselContent>
           {masterList.map((item, index) => (
             <CarouselItem key={index}>
