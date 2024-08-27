@@ -21,6 +21,7 @@ import {
 export default function PathDisplay({ masterList, carouselIndex }) {
   return (
     <div className="flex flex-row items-center justify-center">
+      <WalkTime />
       <Carousel className="w-full max-w-screen-sm">
         <CarouselContent>
           {masterList.map((item, index) => (
@@ -55,7 +56,6 @@ export default function PathDisplay({ masterList, carouselIndex }) {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <WalkTime />
     </div>
   );
 }
