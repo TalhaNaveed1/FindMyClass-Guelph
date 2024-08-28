@@ -13,7 +13,10 @@ const ClassMap = () => {
     <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_MAPS_API_KEY}>
       <GoogleMap
         mapContainerStyle={mapStyle}
+        center={testCoordinates}
+        zoom={10}
       >
+        <Marker position={testCoordinates} />
       </GoogleMap>
     </LoadScript>
   );
