@@ -19,14 +19,14 @@ export default function WalkTime() {
   if (prediction) {
     const { predictedLevel, currentTime } = prediction;
 
-    if (prediction === "low") {
+    if (predictedLevel === "low") {
       imgSrc = "/traffic_images/low.png";
       description = (
         <>
           At {currentTime}, expect a <em><b><u>low</u></b></em> travel time to your class
         </>
       );
-    } else if (prediction === "mid") {
+    } else if (predictedLevel === "mid") {
       imgSrc = "/traffic_images/mid.png";
       description = (
         <>

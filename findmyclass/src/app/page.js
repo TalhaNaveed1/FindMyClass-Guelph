@@ -76,16 +76,12 @@ export default function Page() {
           />
         </form>
 
-        <a href="" className="text-white font-sans font-bold mt-20 relative">
-          View all classes here &gt;&gt;&gt;
-        </a>
+          <a href="/allClasses" className="text-white font-sans font-bold mt-20 relative">
+            View all classes here &gt;&gt;&gt;
+          </a>
       </div>
       {masterList.length > 0 && (
-        <PathDisplay
-          key={myKey}
-          masterList={masterList}
-          mapsCode={mapsCode}
-        />
+        <PathDisplay key={myKey} masterList={masterList} mapsCode={mapsCode} />
       )}
     </main>
   );
