@@ -23,7 +23,7 @@ export default function PathDisplay({ masterList, mapsCode }) {
   return (
     <div className="flex flex-row items-center gap-20">
       <div className="mr-12">
-        <WalkTime />
+        <WalkTime mapsCode={mapsCode}/>
         <ClassMap />
       </div>
       <Carousel className="w-full max-w-screen-sm ml-12">
