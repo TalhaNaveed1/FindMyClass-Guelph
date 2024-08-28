@@ -9,7 +9,17 @@ const ClassMap = ({ mapsCode }) => {
     "THRN": { lat: 43.5312, lng: -80.2255 },
     "ROZH": { lat: 43.5322, lng: -80.2259 },
     "ANNU": { lat: 43.5296, lng: -80.2297 },
-    "MACN": { lat: 43.5296, lng: -80.2297 },
+    "WMEM": { lat: 43.5325, lng: -80.2313 },
+    "SCIE": { lat: 43.5309, lng: -80.2285 },
+    "MCLN": { lat: 43.5313, lng: -80.2286 },
+    "MACN": { lat: 43.5308, lng: -80.2273 },
+    "HUTT": { lat: 43.5302, lng: -80.2270 },
+    "MACK": { lat: 43.5326, lng: -80.2272 },
+    "MCKN": { lat: 43.5326, lng: -80.2272 },
+    "MINS": { lat: 43.5342, lng: -80.2320 },
+    "MACS": { lat: 43.5343, lng: -80.2327 },
+    "CRSC": { lat: 43.5318, lng: -80.2246 },
+    "LIBRARY": { lat: 43.5315, lng: -80.2276 },
   };
   let coordinates = '';
 
@@ -31,8 +41,6 @@ const ClassMap = ({ mapsCode }) => {
     height: "300px",
   };
 
-  const testCoordinates = { lat: 43.5329, lng: -80.2264 };
-
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY,
   });
@@ -41,10 +49,10 @@ const ClassMap = ({ mapsCode }) => {
     <div className="bg-black p-8 rounded-xl mt-5 mb-10">
       <GoogleMap
         mapContainerStyle={containerStyle}
-        center={testCoordinates}
-        zoom={10}
+        center={coordinates}
+        zoom={17}
       >
-        <MarkerF position={testCoordinates} />
+        <MarkerF position={coordinates} />
       </GoogleMap>
     </div>
   ) : (
