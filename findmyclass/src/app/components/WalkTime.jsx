@@ -31,7 +31,7 @@ export default function WalkTime() {
 
 
     return (
-        <div className="flex flex-col bg-black p-12 rounded-xl items-center">
+        <div className="flex flex-col bg-black p-12 rounded-xl items-center mt-32">
             {prediction ? (
                 <>
                     <img src={imgSrc} alt="traffic_display" className="w-[200px] h-[150px]" />

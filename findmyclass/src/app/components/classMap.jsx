@@ -1,12 +1,12 @@
-import React, { useEffect, useRef } from "react";
-import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
+import React from "react";
+import { GoogleMap, useJsApiLoader, MarkerF } from "@react-google-maps/api";
 
 const ClassMap = ({ mapsCode }) => {
   console.log(mapsCode);
 
   const containerStyle = {
-    width: "100%",
-    height: "400px",
+    width: "400px",
+    height: "300px",
   };
 
   const testCoordinates = { lat: 43.5329, lng: -80.2264 };
@@ -15,27 +15,20 @@ const ClassMap = ({ mapsCode }) => {
     googleMapsApiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY,
   });
 
-  const mapRef = useRef(null);
-  const markerRef = useRef(null);
-
-  useEffect(() => {
-    if (isLoaded && mapRef.current && !markerRef.current) {
-      markerRef.current = new google.maps.marker.AdvancedMarkerElement({
-        map: mapRef.current,
-        position: testCoordinates
-      });
-    }
-  }, [isLoaded]);
-
   return isLoaded ? (
-    <GoogleMap
-      mapContainerStyle={containerStyle}
-      center={testCoordinates}
-      zoom={10}
-      onLoad={(map) => (mapRef.current = map)}
-    />
+    <div className="bg-black p-8 rounded-xl mt-5 mb-10">
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={testCoordinates}
+        zoom={10}
+      >
+        <MarkerF position={testCoordinates} />
+      </GoogleMap>
+    </div>
   ) : (
-    <div>Loading...</div>
+    <div className="bg-black p-8 rounded-xl">
+      <h2 className="text-white text-center text-xl mt-4 font-semibold">Loading...</h2>
+    </div>
   );
 };
 
