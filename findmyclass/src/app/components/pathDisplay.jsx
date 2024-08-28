@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import WalkTime from "./WalkTime";
+import ClassMap from "./classMap";
 import {
   Card,
   CardContent,
@@ -23,6 +24,7 @@ export default function PathDisplay({ masterList, mapsCode }) {
     <div className="flex flex-row items-center gap-20">
       <div className="mr-12">
         <WalkTime />
+        <ClassMap />
       </div>
       <Carousel className="w-full max-w-screen-sm ml-12">
         <CarouselContent>
