@@ -21,13 +21,25 @@ export default function WalkTime() {
 
     if (prediction === "low") {
       imgSrc = "/traffic_images/low.png";
-      description = `At ${currentTime}, expect a low travel time to your class`;
+      description = (
+        <>
+          At {currentTime}, expect a <em><b><u>low</u></b></em> travel time to your class
+        </>
+      );
     } else if (prediction === "mid") {
       imgSrc = "/traffic_images/mid.png";
-      description = `At ${currentTime}, expect the average travel time to your class`;
+      description = (
+        <>
+        At {currentTime}, expect the <em><b><u>average</u></b></em> travel time to your class
+        </>
+      );
     } else {
       imgSrc = "/traffic_images/high.png";
-      description = `At ${currentTime}, expect a longer travel time to your class`;
+      description = (
+        <>
+          At {currentTime}, expect a <em><b><u>longer</u></b></em> travel time to your class
+        </>
+      );
     }
   }
 
