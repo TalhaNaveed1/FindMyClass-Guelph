@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "./globals.css";
 import PathDisplay from "./components/pathDisplay";
 import { fetchData } from "./utils/fetchData";
+import Link from "next/link";
 
 export default function Page() {
   const [inputValue, setInputValue] = useState("");
@@ -76,9 +77,9 @@ export default function Page() {
           />
         </form>
 
-          <a href="/allClasses" className="text-white font-sans font-bold mt-20 relative">
-            View all classes here &gt;&gt;&gt;
-          </a>
+        <Link href="/allClasses" className="text-white font-sans font-bold mt-20 relative">
+          View all classes here &gt;&gt;&gt;
+        </Link>
       </div>
       {masterList.length > 0 && (
         <PathDisplay key={myKey} masterList={masterList} mapsCode={mapsCode} />
