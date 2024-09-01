@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./globals.css";
 import PathDisplay from "./components/pathDisplay";
 import { fetchData } from "./utils/fetchData";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 export default function Page() {
   const [inputValue, setInputValue] = useState("");
@@ -15,6 +16,14 @@ export default function Page() {
   const [masterList, setMasterList] = useState([]);
   const [myKey, setMyKey] = useState(0);
   const [mapsCode, setMapsCode] = useState(null);
+
+  const searchParams = useSearchParams();
+  useEffect(() => {
+    const classCode = searchParams.get('classCode');
+    if (classCode) {
+      setInputValue(classCode);
+    }
+  }, [searchParams]);
 
   const updateInput = (e) => {
     setInputValue(e.target.value);
