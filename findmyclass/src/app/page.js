@@ -22,6 +22,7 @@ export default function Page() {
     const classCode = searchParams.get('classCode');
     if (classCode) {
       setInputValue(classCode);
+      findPath(classCode);
     }
   }, [searchParams]);
 
@@ -29,11 +30,10 @@ export default function Page() {
     setInputValue(e.target.value);
   };
 
-  const findPath = async (e) => {
-    e.preventDefault();
-    const classCode = inputValue.replace(/\s+/g, "").toUpperCase();
-    setMapsCode(classCode);
-    const data = await fetchData(classCode);
+  const findPath = async (classCode = inputValue) => {
+    const code = classCode.replace(/\s+/g, "").toUpperCase();
+    setMapsCode(code);
+    const data = await fetchData(code);
     console.log("DATA", data);
     setClassData(data);
     createPath(data);
@@ -57,6 +57,11 @@ export default function Page() {
     console.log(tempMasterList);
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    findPath();
+  };
+
   return (
     <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full">
       <div className="flex flex-col justify-center items-center text-center">
@@ -76,7 +81,7 @@ export default function Page() {
             A step-by-step guide to every class at the University of Guelph
           </em>
         </h3>
-        <form className="flex" onSubmit={findPath}>
+        <form className="flex" onSubmit={handleSubmit}>
           <input
             type="text"
             className="p-3 w-96 h-16 rounded-xl"
