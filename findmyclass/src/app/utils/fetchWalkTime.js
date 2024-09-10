@@ -1,11 +1,15 @@
 export async function fetchWalkTime() {
+  console.log("pre a");
   const apiResponse = await fetch("http://worldtimeapi.org/api/timezone/America/Toronto");
+  console.log("a");
   const timeData = await apiResponse.json();
+  console.log("b");
   const datetime = new Date(timeData.datetime);
   const dayOfWeek = datetime.getDay();
   const month = datetime.getMonth();
   const hour = datetime.getHours();
   const displayTime = datetime.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+  console.log("c");
 
   console.log(dayOfWeek);
   console.log(month);
@@ -22,9 +26,11 @@ export async function fetchWalkTime() {
       hour: hour,
     }),
   });
+  console.log("d");
 
   const predictionData = await backendResponse.json();
   console.log(predictionData)
+  console.log("e");
   return {
     predictedLevel: predictionData.predictedLevel,
     currentTime: displayTime

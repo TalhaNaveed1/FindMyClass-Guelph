@@ -30,7 +30,8 @@ export default function Page() {
     setInputValue(e.target.value);
   };
 
-  const findPath = async (classCode = inputValue) => {
+  const findPath = async (classCode) => {
+    if (!classCode) return; 
     const code = classCode.replace(/\s+/g, "").toUpperCase();
     setMapsCode(code);
     const data = await fetchData(code);
@@ -59,7 +60,7 @@ export default function Page() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    findPath();
+    findPath(inputValue);
   };
 
   return (
