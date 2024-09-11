@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from "react";
 import {
@@ -10,13 +10,11 @@ import {
 import Link from "next/link";
 
 export default function AllClasses() {
-
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
   }, []);
-
 
   return (
     <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full">
@@ -25,7 +23,10 @@ export default function AllClasses() {
           The Full Class List
         </h1>
         <Accordion type="single" collapsible className="mb-10">
-          <AccordionItem value="item-1" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-1"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Alexander (ALEX)
             </AccordionTrigger>
@@ -40,7 +41,10 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-2" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-2"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Thornbrough (THRN)
             </AccordionTrigger>
@@ -169,7 +173,10 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-3"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Rozanski (ROZH)
             </AccordionTrigger>
@@ -202,7 +209,10 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-4" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-4"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Animal Nutrition (ANNU)
             </AccordionTrigger>
@@ -301,7 +311,10 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-5" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-5"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               War Memorial (WMEM)
             </AccordionTrigger>
@@ -313,7 +326,10 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-6" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-6"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Science Complex (SCIE)
             </AccordionTrigger>
@@ -520,15 +536,34 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-7" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-7"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacLachlan (MCLN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=MCLN101" className="classLink">
+                  MCLN101
+                </Link>
+                <Link href="/?classCode=MCLN102" className="classLink">
+                  MCLN102
+                </Link>
+                <Link href="/?classCode=MCLN103" className="classLink">
+                  MCLN103
+                </Link>
+                <Link href="/?classCode=MCLN107" className="classLink">
+                  MCLN107
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-8" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-8"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacNaughton (MACN)
             </AccordionTrigger>
@@ -536,7 +571,10 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-9" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-9"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               H.L Hutt (HUTT)
             </AccordionTrigger>
@@ -544,7 +582,10 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-10" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-10"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacKinnon (MCKN)
             </AccordionTrigger>
@@ -552,7 +593,10 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-11" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-11"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Macdonald Institute (MINS)
             </AccordionTrigger>
@@ -560,7 +604,10 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-12" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-12"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Crop Science (CRSC)
             </AccordionTrigger>
@@ -568,7 +615,10 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-13" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
+          <AccordionItem
+            value="item-13"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Library
             </AccordionTrigger>
