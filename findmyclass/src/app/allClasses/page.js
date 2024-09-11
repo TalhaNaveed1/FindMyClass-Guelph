@@ -982,7 +982,62 @@ export default function AllClasses() {
               Macdonald Institute (MINS)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+            <div className="flex flex-col">
+                <Link href="/?classCode=MINSB3" className="classLink">
+                  MINS B3
+                </Link>
+                <Link href="/?classCode=MINSB5" className="classLink">
+                  MINS B5
+                </Link>
+                <Link href="/?classCode=MINSB7" className="classLink">
+                  MINS B7
+                </Link>
+                <Link href="/?classCode=MINSB11" className="classLink">
+                  MINS B11
+                </Link>
+                <Link href="/?classCode=MINSB13" className="classLink">
+                  MINS B13
+                </Link>
+                <Link href="/?classCode=MINSB17" className="classLink">
+                  MINS B17
+                </Link>
+                <Link href="/?classCode=MINSB23" className="classLink">
+                  MINS B23
+                </Link>
+                <Link href="/?classCode=MINSB33" className="classLink">
+                  MINS B33
+                </Link>
+                <Link href="/?classCode=MINSB37" className="classLink">
+                  MINS B37
+                </Link>
+                <Link href="/?classCode=MINS103" className="classLink">
+                  MINS 103
+                </Link>
+                <Link href="/?classCode=MINS106" className="classLink">
+                  MINS 106
+                </Link>
+                <Link href="/?classCode=MINS 206" className="classLink">
+                  MINS 206
+                </Link>
+                <Link href="/?classCode=MINS 214" className="classLink">
+                  MINS 214
+                </Link>
+                <Link href="/?classCode=MINS 229" className="classLink">
+                  MINS 229
+                </Link>
+                <Link href="/?classCode=MINS 235" className="classLink">
+                  MINS 235
+                </Link>
+                <Link href="/?classCode=MINS 237" className="classLink">
+                  MINS 237
+                </Link>
+                <Link href="/?classCode=MINS 239" className="classLink">
+                  MINS 239
+                </Link>
+                <Link href="/?classCode=MINS 245" className="classLink">
+                  MINS 245
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
