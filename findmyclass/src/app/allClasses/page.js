@@ -21,8 +21,12 @@ export default function AllClasses() {
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               <div className="flex flex-col">
-                <Link href="/?classCode=ALEX100" className="classLink">ALEX100</Link>
-                <Link href="/?classCode=ALEX200" className="classLink">ALEX200</Link>
+                <Link href="/?classCode=ALEX100" className="classLink">
+                  ALEX100
+                </Link>
+                <Link href="/?classCode=ALEX200" className="classLink">
+                  ALEX200
+                </Link>
               </div>
             </AccordionContent>
           </AccordionItem>
@@ -31,7 +35,128 @@ export default function AllClasses() {
               Thornbrough (THRN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=THRN1002" className="classLink">
+                  THRN1002
+                </Link>
+                <Link href="/?classCode=THRN1004" className="classLink">
+                  THRN1004
+                </Link>
+                <Link href="/?classCode=THRN1006" className="classLink">
+                  THRN1006
+                </Link>
+                <Link href="/?classCode=THRN1007" className="classLink">
+                  THRN1007
+                </Link>
+                <Link href="/?classCode=THRN1008" className="classLink">
+                  THRN1008
+                </Link>
+                <Link href="/?classCode=THRN1009" className="classLink">
+                  THRN1009
+                </Link>
+                <Link href="/?classCode=THRN1012" className="classLink">
+                  THRN1012
+                </Link>
+                <Link href="/?classCode=THRN1013" className="classLink">
+                  THRN1013
+                </Link>
+                <Link href="/?classCode=THRN1015" className="classLink">
+                  THRN1015
+                </Link>
+                <Link href="/?classCode=THRN1025" className="classLink">
+                  THRN1025
+                </Link>
+                <Link href="/?classCode=THRN1027" className="classLink">
+                  THRN1027
+                </Link>
+                <Link href="/?classCode=THRN1200" className="classLink">
+                  THRN1200
+                </Link>
+                <Link href="/?classCode=THRN1307" className="classLink">
+                  THRN1307
+                </Link>
+                <Link href="/?classCode=THRN1311" className="classLink">
+                  THRN1311
+                </Link>
+                <Link href="/?classCode=THRN1313" className="classLink">
+                  THRN1313
+                </Link>
+                <Link href="/?classCode=THRN1319" className="classLink">
+                  THRN1319
+                </Link>
+                <Link href="/?classCode=THRN1365" className="classLink">
+                  THRN1365
+                </Link>
+                <Link href="/?classCode=THRN1424" className="classLink">
+                  THRN1424
+                </Link>
+                <Link href="/?classCode=THRN1425" className="classLink">
+                  THRN1425
+                </Link>
+                <Link href="/?classCode=THRN1426" className="classLink">
+                  THRN1426
+                </Link>
+                <Link href="/?classCode=THRN1427" className="classLink">
+                  THRN1427
+                </Link>
+                <Link href="/?classCode=THRN1428" className="classLink">
+                  THRN1428
+                </Link>
+                <Link href="/?classCode=THRN1429" className="classLink">
+                  THRN1429
+                </Link>
+                <Link href="/?classCode=THRN1430" className="classLink">
+                  THRN1430
+                </Link>
+                <Link href="/?classCode=THRN1432" className="classLink">
+                  THRN1432
+                </Link>
+                <Link href="/?classCode=THRN1435" className="classLink">
+                  THRN1435
+                </Link>
+                <Link href="/?classCode=THRN2131" className="classLink">
+                  THRN2131
+                </Link>
+                <Link href="/?classCode=THRN2133" className="classLink">
+                  THRN2133
+                </Link>
+                <Link href="/?classCode=THRN2135" className="classLink">
+                  THRN2135
+                </Link>
+                <Link href="/?classCode=THRN2307" className="classLink">
+                  THRN2307
+                </Link>
+                <Link href="/?classCode=THRN2308" className="classLink">
+                  THRN2308
+                </Link>
+                <Link href="/?classCode=THRN2313" className="classLink">
+                  THRN2313
+                </Link>
+                <Link href="/?classCode=THRN2319" className="classLink">
+                  THRN2319
+                </Link>
+                <Link href="/?classCode=THRN2336" className="classLink">
+                  THRN2336
+                </Link>
+                <Link href="/?classCode=THRN2504" className="classLink">
+                  THRN2504
+                </Link>
+                <Link href="/?classCode=THRN3401" className="classLink">
+                  THRN3401
+                </Link>
+                <Link href="/?classCode=THRN3402" className="classLink">
+                  THRN3402
+                </Link>
+                <Link href="/?classCode=THRN3403" className="classLink">
+                  THRN3403
+                </Link>
+                <Link href="/?classCode=THRN3404" className="classLink">
+                  THRN3404
+                </Link>
+                <Link href="/?classCode=THRN3405" className="classLink">
+                  THRN3405
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3" className="mb-4">
