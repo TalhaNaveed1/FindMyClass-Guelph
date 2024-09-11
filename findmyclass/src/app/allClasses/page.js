@@ -406,6 +406,117 @@ export default function AllClasses() {
                 <Link href="/?classCode=SCIE2308" className="classLink">
                   SCIE2308
                 </Link>
+                <Link href="/?classCode=SCIE2309" className="classLink">
+                  SCIE2309
+                </Link>
+                <Link href="/?classCode=SCIE2312" className="classLink">
+                  SCIE2312
+                </Link>
+                <Link href="/?classCode=SCIE2313" className="classLink">
+                  SCIE2313
+                </Link>
+                <Link href="/?classCode=SCIE2314" className="classLink">
+                  SCIE2314
+                </Link>
+                <Link href="/?classCode=SCIE2315" className="classLink">
+                  SCIE2315
+                </Link>
+                <Link href="/?classCode=SCIE3101" className="classLink">
+                  SCIE3101
+                </Link>
+                <Link href="/?classCode=SCIE3102A" className="classLink">
+                  SCIE3102A
+                </Link>
+                <Link href="/?classCode=SCIE3103" className="classLink">
+                  SCIE3103
+                </Link>
+                <Link href="/?classCode=SCIE3104" className="classLink">
+                  SCIE3104
+                </Link>
+                <Link href="/?classCode=SCIE3105" className="classLink">
+                  SCIE3105
+                </Link>
+                <Link href="/?classCode=SCIE3106" className="classLink">
+                  SCIE3106
+                </Link>
+                <Link href="/?classCode=SCIE3108" className="classLink">
+                  SCIE3108
+                </Link>
+                <Link href="/?classCode=SCIE3109" className="classLink">
+                  SCIE3109
+                </Link>
+                <Link href="/?classCode=SCIE3110" className="classLink">
+                  SCIE3110
+                </Link>
+                <Link href="/?classCode=SCIE3111" className="classLink">
+                  SCIE3111
+                </Link>
+                <Link href="/?classCode=SCIE3112" className="classLink">
+                  SCIE3112
+                </Link>
+                <Link href="/?classCode=SCIE3303" className="classLink">
+                  SCIE3303
+                </Link>
+                <Link href="/?classCode=SCIE3304" className="classLink">
+                  SCIE3304
+                </Link>
+                <Link href="/?classCode=SCIE3305" className="classLink">
+                  SCIE3305
+                </Link>
+                <Link href="/?classCode=SCIE3306" className="classLink">
+                  SCIE3306
+                </Link>
+                <Link href="/?classCode=SCIE3307" className="classLink">
+                  SCIE3307
+                </Link>
+                <Link href="/?classCode=SCIE3308" className="classLink">
+                  SCIE3308
+                </Link>
+                <Link href="/?classCode=SCIE3309" className="classLink">
+                  SCIE3309
+                </Link>
+                <Link href="/?classCode=SCIE3310" className="classLink">
+                  SCIE3310
+                </Link>
+                <Link href="/?classCode=SCIE3314" className="classLink">
+                  SCIE3314
+                </Link>
+                <Link href="/?classCode=SCIE3315" className="classLink">
+                  SCIE3315
+                </Link>
+                <Link href="/?classCode=SCIE3316" className="classLink">
+                  SCIE3316
+                </Link>
+                <Link href="/?classCode=SCIE3317" className="classLink">
+                  SCIE3317
+                </Link>
+                <Link href="/?classCode=SCIE4101" className="classLink">
+                  SCIE4101
+                </Link>
+                <Link href="/?classCode=SCIE4102" className="classLink">
+                  SCIE4102
+                </Link>
+                <Link href="/?classCode=SCIE4103A" className="classLink">
+                  SCIE4103A
+                </Link>
+                <Link href="/?classCode=SCIE4104A" className="classLink">
+                  SCIE4104A
+                </Link>
+                <Link href="/?classCode=SCIE4108" className="classLink">
+                  SCIE4108
+                </Link>
+                <Link href="/?classCode=SCIE4109" className="classLink">
+                  SCIE4109
+                </Link>
+                <Link href="/?classCode=SCIE4110" className="classLink">
+                  SCIE4110
+                </Link>
+                <Link href="/?classCode=SCIE4111" className="classLink">
+                  SCIE4111
+                </Link>
+                <Link href="/?classCode=SCIE4112" className="classLink">
+                  SCIE4112
+                </Link>
               </div>
             </AccordionContent>
           </AccordionItem>
