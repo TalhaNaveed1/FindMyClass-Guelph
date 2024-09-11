@@ -33,10 +33,10 @@ export default function AllClasses() {
             <AccordionContent className="bg-black text-white p-4 text-lg">
               <div className="flex flex-col">
                 <Link href="/?classCode=ALEX100" className="classLink">
-                  ALEX100
+                  ALEX 100
                 </Link>
                 <Link href="/?classCode=ALEX200" className="classLink">
-                  ALEX200
+                  ALEX 200
                 </Link>
               </div>
             </AccordionContent>
@@ -51,124 +51,124 @@ export default function AllClasses() {
             <AccordionContent className="bg-black text-white p-4 text-lg">
               <div className="flex flex-col">
                 <Link href="/?classCode=THRN1002" className="classLink">
-                  THRN1002
+                  THRN 1002
                 </Link>
                 <Link href="/?classCode=THRN1004" className="classLink">
-                  THRN1004
+                  THRN 1004
                 </Link>
                 <Link href="/?classCode=THRN1006" className="classLink">
-                  THRN1006
+                  THRN 1006
                 </Link>
                 <Link href="/?classCode=THRN1007" className="classLink">
-                  THRN1007
+                  THRN 1007
                 </Link>
                 <Link href="/?classCode=THRN1008" className="classLink">
-                  THRN1008
+                  THRN 1008
                 </Link>
                 <Link href="/?classCode=THRN1009" className="classLink">
-                  THRN1009
+                  THRN 1009
                 </Link>
                 <Link href="/?classCode=THRN1012" className="classLink">
-                  THRN1012
+                  THRN 1012
                 </Link>
                 <Link href="/?classCode=THRN1013" className="classLink">
-                  THRN1013
+                  THRN 1013
                 </Link>
                 <Link href="/?classCode=THRN1015" className="classLink">
-                  THRN1015
+                  THRN 1015
                 </Link>
                 <Link href="/?classCode=THRN1025" className="classLink">
-                  THRN1025
+                  THRN 1025
                 </Link>
                 <Link href="/?classCode=THRN1027" className="classLink">
-                  THRN1027
+                  THRN 1027
                 </Link>
                 <Link href="/?classCode=THRN1200" className="classLink">
-                  THRN1200
+                  THRN 1200
                 </Link>
                 <Link href="/?classCode=THRN1307" className="classLink">
-                  THRN1307
+                  THRN 1307
                 </Link>
                 <Link href="/?classCode=THRN1311" className="classLink">
-                  THRN1311
+                  THRN 1311
                 </Link>
                 <Link href="/?classCode=THRN1313" className="classLink">
-                  THRN1313
+                  THRN 1313
                 </Link>
                 <Link href="/?classCode=THRN1319" className="classLink">
-                  THRN1319
+                  THRN 1319
                 </Link>
                 <Link href="/?classCode=THRN1365" className="classLink">
-                  THRN1365
+                  THRN 1365
                 </Link>
                 <Link href="/?classCode=THRN1424" className="classLink">
-                  THRN1424
+                  THRN 1424
                 </Link>
                 <Link href="/?classCode=THRN1425" className="classLink">
-                  THRN1425
+                  THRN 1425
                 </Link>
                 <Link href="/?classCode=THRN1426" className="classLink">
-                  THRN1426
+                  THRN 1426
                 </Link>
                 <Link href="/?classCode=THRN1427" className="classLink">
-                  THRN1427
+                  THRN 1427
                 </Link>
                 <Link href="/?classCode=THRN1428" className="classLink">
-                  THRN1428
+                  THRN 1428
                 </Link>
                 <Link href="/?classCode=THRN1429" className="classLink">
-                  THRN1429
+                  THRN 1429
                 </Link>
                 <Link href="/?classCode=THRN1430" className="classLink">
-                  THRN1430
+                  THRN 1430
                 </Link>
                 <Link href="/?classCode=THRN1432" className="classLink">
-                  THRN1432
+                  THRN 1432
                 </Link>
                 <Link href="/?classCode=THRN1435" className="classLink">
-                  THRN1435
+                  THRN 1435
                 </Link>
                 <Link href="/?classCode=THRN2131" className="classLink">
-                  THRN2131
+                  THRN 2131
                 </Link>
                 <Link href="/?classCode=THRN2133" className="classLink">
-                  THRN2133
+                  THRN 2133
                 </Link>
                 <Link href="/?classCode=THRN2135" className="classLink">
-                  THRN2135
+                  THRN 2135
                 </Link>
                 <Link href="/?classCode=THRN2307" className="classLink">
-                  THRN2307
+                  THRN 2307
                 </Link>
                 <Link href="/?classCode=THRN2308" className="classLink">
-                  THRN2308
+                  THRN 2308
                 </Link>
                 <Link href="/?classCode=THRN2313" className="classLink">
-                  THRN2313
+                  THRN 2313
                 </Link>
                 <Link href="/?classCode=THRN2319" className="classLink">
-                  THRN2319
+                  THRN 2319
                 </Link>
                 <Link href="/?classCode=THRN2336" className="classLink">
-                  THRN2336
+                  THRN 2336
                 </Link>
                 <Link href="/?classCode=THRN2504" className="classLink">
-                  THRN2504
+                  THRN 2504
                 </Link>
                 <Link href="/?classCode=THRN3401" className="classLink">
-                  THRN3401
+                  THRN 3401
                 </Link>
                 <Link href="/?classCode=THRN3402" className="classLink">
-                  THRN3402
+                  THRN 3402
                 </Link>
                 <Link href="/?classCode=THRN3403" className="classLink">
-                  THRN3403
+                  THRN 3403
                 </Link>
                 <Link href="/?classCode=THRN3404" className="classLink">
-                  THRN3404
+                  THRN 3404
                 </Link>
                 <Link href="/?classCode=THRN3405" className="classLink">
-                  THRN3405
+                  THRN 3405
                 </Link>
               </div>
             </AccordionContent>
@@ -183,28 +183,28 @@ export default function AllClasses() {
             <AccordionContent className="bg-black text-white p-4 text-lg">
               <div className="flex flex-col">
                 <Link href="/?classCode=ROZH101" className="classLink">
-                  ROZH101
+                  ROZH 101
                 </Link>
                 <Link href="/?classCode=ROZH102" className="classLink">
-                  ROZH102
+                  ROZH 102
                 </Link>
                 <Link href="/?classCode=ROZH103" className="classLink">
-                  ROZH103
+                  ROZH 103
                 </Link>
                 <Link href="/?classCode=ROZH104" className="classLink">
-                  ROZH104
+                  ROZH 104
                 </Link>
                 <Link href="/?classCode=ROZH105" className="classLink">
-                  ROZH105
+                  ROZH 105
                 </Link>
                 <Link href="/?classCode=ROZH106" className="classLink">
-                  ROZH106
+                  ROZH 106
                 </Link>
                 <Link href="/?classCode=ROZH108" className="classLink">
-                  ROZH108
+                  ROZH 108
                 </Link>
                 <Link href="/?classCode=ROZH109" className="classLink">
-                  ROZH109
+                  ROZH 109
                 </Link>
               </div>
             </AccordionContent>
@@ -219,94 +219,94 @@ export default function AllClasses() {
             <AccordionContent className="bg-black text-white p-4 text-lg">
               <div className="flex flex-col">
                 <Link href="/?classCode=ANNU102" className="classLink">
-                  ANNU102
+                  ANNU 102
                 </Link>
                 <Link href="/?classCode=ANNU103" className="classLink">
-                  ANNU103
+                  ANNU 103
                 </Link>
                 <Link href="/?classCode=ANNU104" className="classLink">
-                  ANNU104
+                  ANNU 104
                 </Link>
                 <Link href="/?classCode=ANNU105" className="classLink">
-                  ANNU105
+                  ANNU 105
                 </Link>
                 <Link href="/?classCode=ANNU107" className="classLink">
-                  ANNU107
+                  ANNU 107
                 </Link>
                 <Link href="/?classCode=ANNU110" className="classLink">
-                  ANNU110
+                  ANNU 110
                 </Link>
                 <Link href="/?classCode=ANNU115" className="classLink">
-                  ANNU115
+                  ANNU 115
                 </Link>
                 <Link href="/?classCode=ANNU116" className="classLink">
-                  ANNU116
+                  ANNU 116
                 </Link>
                 <Link href="/?classCode=ANNU129" className="classLink">
-                  ANNU129
+                  ANNU 129
                 </Link>
                 <Link href="/?classCode=ANNU130" className="classLink">
-                  ANNU130
+                  ANNU 130
                 </Link>
                 <Link href="/?classCode=ANNU131" className="classLink">
-                  ANNU131
+                  ANNU 131
                 </Link>
                 <Link href="/?classCode=ANNU133" className="classLink">
-                  ANNU133
+                  ANNU 133
                 </Link>
                 <Link href="/?classCode=ANNU141" className="classLink">
-                  ANNU141
+                  ANNU 141
                 </Link>
                 <Link href="/?classCode=ANNU156" className="classLink">
-                  ANNU156
+                  ANNU 156
                 </Link>
                 <Link href="/?classCode=ANNU204" className="classLink">
-                  ANNU204
+                  ANNU 204
                 </Link>
                 <Link href="/?classCode=ANNU205" className="classLink">
-                  ANNU205
+                  ANNU 205
                 </Link>
                 <Link href="/?classCode=ANNU208" className="classLink">
-                  ANNU208
+                  ANNU 208
                 </Link>
                 <Link href="/?classCode=ANNU212" className="classLink">
-                  ANNU212
+                  ANNU 212
                 </Link>
                 <Link href="/?classCode=ANNU214" className="classLink">
-                  ANNU214
+                  ANNU 214
                 </Link>
                 <Link href="/?classCode=ANNU215" className="classLink">
-                  ANNU215
+                  ANNU 215
                 </Link>
                 <Link href="/?classCode=ANNU216" className="classLink">
-                  ANNU216
+                  ANNU 216
                 </Link>
                 <Link href="/?classCode=ANNU217" className="classLink">
-                  ANNU217
+                  ANNU 217
                 </Link>
                 <Link href="/?classCode=ANNU218" className="classLink">
-                  ANNU218
+                  ANNU 218
                 </Link>
                 <Link href="/?classCode=ANNU220" className="classLink">
-                  ANNU220
+                  ANNU 220
                 </Link>
                 <Link href="/?classCode=ANNU302" className="classLink">
-                  ANNU302
+                  ANNU 302
                 </Link>
                 <Link href="/?classCode=ANNU305" className="classLink">
-                  ANNU305
+                  ANNU 305
                 </Link>
                 <Link href="/?classCode=ANNU306" className="classLink">
-                  ANNU306
+                  ANNU 306
                 </Link>
                 <Link href="/?classCode=ANNU327" className="classLink">
-                  ANNU327
+                  ANNU 327
                 </Link>
                 <Link href="/?classCode=ANNU337" className="classLink">
-                  ANNU337
+                  ANNU 337
                 </Link>
                 <Link href="/?classCode=ANNU355" className="classLink">
-                  ANNU355
+                  ANNU 355
                 </Link>
               </div>
             </AccordionContent>
@@ -336,202 +336,202 @@ export default function AllClasses() {
             <AccordionContent className="bg-black text-white p-4 text-lg">
               <div className="flex flex-col">
                 <Link href="/?classCode=SCIE1301" className="classLink">
-                  SCIE1301
+                  SCIE 1301
                 </Link>
                 <Link href="/?classCode=SCIE1304" className="classLink">
-                  SCIE1304
+                  SCIE 1304
                 </Link>
                 <Link href="/?classCode=SCIE1305" className="classLink">
-                  SCIE1305
+                  SCIE 1305
                 </Link>
                 <Link href="/?classCode=SCIE1401" className="classLink">
-                  SCIE1401
+                  SCIE 1401
                 </Link>
                 <Link href="/?classCode=SCIE1403" className="classLink">
-                  SCIE1403
+                  SCIE 1403
                 </Link>
                 <Link href="/?classCode=SCIE1404" className="classLink">
-                  SCIE1404
+                  SCIE 1404
                 </Link>
                 <Link href="/?classCode=SCIE1405" className="classLink">
-                  SCIE1405
+                  SCIE 1405
                 </Link>
                 <Link href="/?classCode=SCIE1406" className="classLink">
-                  SCIE1406
+                  SCIE 1406
                 </Link>
                 <Link href="/?classCode=SCIE1407" className="classLink">
-                  SCIE1407
+                  SCIE 1407
                 </Link>
                 <Link href="/?classCode=SCIE1408" className="classLink">
-                  SCIE1408
+                  SCIE 1408
                 </Link>
                 <Link href="/?classCode=SCIE1409" className="classLink">
-                  SCIE1409
+                  SCIE 1409
                 </Link>
                 <Link href="/?classCode=SCIE1410" className="classLink">
-                  SCIE1410
+                  SCIE 1410
                 </Link>
                 <Link href="/?classCode=SCIE2101" className="classLink">
-                  SCIE2101
+                  SCIE 2101
                 </Link>
                 <Link href="/?classCode=SCIE2102" className="classLink">
-                  SCIE2102
+                  SCIE 2102
                 </Link>
                 <Link href="/?classCode=SCIE2103" className="classLink">
-                  SCIE2103
+                  SCIE 2103
                 </Link>
                 <Link href="/?classCode=SCIE2104" className="classLink">
-                  SCIE2104
+                  SCIE 2104
                 </Link>
                 <Link href="/?classCode=SCIE2105" className="classLink">
-                  SCIE2105
+                  SCIE 2105
                 </Link>
                 <Link href="/?classCode=SCIE2106" className="classLink">
-                  SCIE2106
+                  SCIE 2106
                 </Link>
                 <Link href="/?classCode=SCIE2108" className="classLink">
-                  SCIE2108
+                  SCIE 2108
                 </Link>
                 <Link href="/?classCode=SCIE2109" className="classLink">
-                  SCIE2109
+                  SCIE 2109
                 </Link>
                 <Link href="/?classCode=SCIE2110" className="classLink">
-                  SCIE2110
+                  SCIE 2110
                 </Link>
                 <Link href="/?classCode=SCIE2111" className="classLink">
-                  SCIE2111
+                  SCIE 2111
                 </Link>
                 <Link href="/?classCode=SCIE2112" className="classLink">
-                  SCIE2112
+                  SCIE 2112
                 </Link>
                 <Link href="/?classCode=SCIE2303" className="classLink">
-                  SCIE2303
+                  SCIE 2303
                 </Link>
                 <Link href="/?classCode=SCIE2304" className="classLink">
-                  SCIE2304
+                  SCIE 2304
                 </Link>
                 <Link href="/?classCode=SCIE2305" className="classLink">
-                  SCIE2305
+                  SCIE 2305
                 </Link>
                 <Link href="/?classCode=SCIE2306" className="classLink">
-                  SCIE2306
+                  SCIE 2306
                 </Link>
                 <Link href="/?classCode=SCIE2307" className="classLink">
-                  SCIE2307
+                  SCIE 2307
                 </Link>
                 <Link href="/?classCode=SCIE2308" className="classLink">
-                  SCIE2308
+                  SCIE 2308
                 </Link>
                 <Link href="/?classCode=SCIE2309" className="classLink">
-                  SCIE2309
+                  SCIE 2309
                 </Link>
                 <Link href="/?classCode=SCIE2312" className="classLink">
-                  SCIE2312
+                  SCIE 2312
                 </Link>
                 <Link href="/?classCode=SCIE2313" className="classLink">
-                  SCIE2313
+                  SCIE 2313
                 </Link>
                 <Link href="/?classCode=SCIE2314" className="classLink">
-                  SCIE2314
+                  SCIE 2314
                 </Link>
                 <Link href="/?classCode=SCIE2315" className="classLink">
-                  SCIE2315
+                  SCIE 2315
                 </Link>
                 <Link href="/?classCode=SCIE3101" className="classLink">
-                  SCIE3101
+                  SCIE 3101
                 </Link>
                 <Link href="/?classCode=SCIE3102A" className="classLink">
-                  SCIE3102A
+                  SCIE 3102A
                 </Link>
                 <Link href="/?classCode=SCIE3103" className="classLink">
-                  SCIE3103
+                  SCIE 3103
                 </Link>
                 <Link href="/?classCode=SCIE3104" className="classLink">
-                  SCIE3104
+                  SCIE 3104
                 </Link>
                 <Link href="/?classCode=SCIE3105" className="classLink">
-                  SCIE3105
+                  SCIE 3105
                 </Link>
                 <Link href="/?classCode=SCIE3106" className="classLink">
-                  SCIE3106
+                  SCIE 3106
                 </Link>
                 <Link href="/?classCode=SCIE3108" className="classLink">
-                  SCIE3108
+                  SCIE 3108
                 </Link>
                 <Link href="/?classCode=SCIE3109" className="classLink">
-                  SCIE3109
+                  SCIE 3109
                 </Link>
                 <Link href="/?classCode=SCIE3110" className="classLink">
-                  SCIE3110
+                  SCIE 3110
                 </Link>
                 <Link href="/?classCode=SCIE3111" className="classLink">
-                  SCIE3111
+                  SCIE 3111
                 </Link>
                 <Link href="/?classCode=SCIE3112" className="classLink">
-                  SCIE3112
+                  SCIE 3112
                 </Link>
                 <Link href="/?classCode=SCIE3303" className="classLink">
-                  SCIE3303
+                  SCIE 3303
                 </Link>
                 <Link href="/?classCode=SCIE3304" className="classLink">
-                  SCIE3304
+                  SCIE 3304
                 </Link>
                 <Link href="/?classCode=SCIE3305" className="classLink">
-                  SCIE3305
+                  SCIE 3305
                 </Link>
                 <Link href="/?classCode=SCIE3306" className="classLink">
-                  SCIE3306
+                  SCIE 3306
                 </Link>
                 <Link href="/?classCode=SCIE3307" className="classLink">
-                  SCIE3307
+                  SCIE 3307
                 </Link>
                 <Link href="/?classCode=SCIE3308" className="classLink">
-                  SCIE3308
+                  SCIE 3308
                 </Link>
                 <Link href="/?classCode=SCIE3309" className="classLink">
-                  SCIE3309
+                  SCIE 3309
                 </Link>
                 <Link href="/?classCode=SCIE3310" className="classLink">
-                  SCIE3310
+                  SCIE 3310
                 </Link>
                 <Link href="/?classCode=SCIE3314" className="classLink">
-                  SCIE3314
+                  SCIE 3314
                 </Link>
                 <Link href="/?classCode=SCIE3315" className="classLink">
-                  SCIE3315
+                  SCIE 3315
                 </Link>
                 <Link href="/?classCode=SCIE3316" className="classLink">
-                  SCIE3316
+                  SCIE 3316
                 </Link>
                 <Link href="/?classCode=SCIE3317" className="classLink">
-                  SCIE3317
+                  SCIE 3317
                 </Link>
                 <Link href="/?classCode=SCIE4101" className="classLink">
-                  SCIE4101
+                  SCIE 4101
                 </Link>
                 <Link href="/?classCode=SCIE4102" className="classLink">
-                  SCIE4102
+                  SCIE 4102
                 </Link>
                 <Link href="/?classCode=SCIE4103A" className="classLink">
-                  SCIE4103A
+                  SCIE 4103A
                 </Link>
                 <Link href="/?classCode=SCIE4104A" className="classLink">
-                  SCIE4104A
+                  SCIE 4104A
                 </Link>
                 <Link href="/?classCode=SCIE4108" className="classLink">
-                  SCIE4108
+                  SCIE 4108
                 </Link>
                 <Link href="/?classCode=SCIE4109" className="classLink">
-                  SCIE4109
+                  SCIE 4109
                 </Link>
                 <Link href="/?classCode=SCIE4110" className="classLink">
-                  SCIE4110
+                  SCIE 4110
                 </Link>
                 <Link href="/?classCode=SCIE4111" className="classLink">
-                  SCIE4111
+                  SCIE 4111
                 </Link>
                 <Link href="/?classCode=SCIE4112" className="classLink">
-                  SCIE4112
+                  SCIE 4112
                 </Link>
               </div>
             </AccordionContent>
