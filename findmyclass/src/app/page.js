@@ -65,24 +65,24 @@ export default function Page() {
 
   return (
     <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full">
-      <div className="flex flex-col justify-center items-center text-center">
+      <div className="flex flex-col justify-center items-center text-center slide-in">
         <div className="flex flex-row mt-10">
-          <h1 className="text-white font-sans font-bold text-8xl">FindMy</h1>
-          <h1 className="text-blue-700 font-sans font-bold text-8xl">
+          <h1 className="text-white font-sans font-bold text-8xl slide-in">FindMy</h1>
+          <h1 className="text-blue-700 font-sans font-bold text-8xl slide-in">
             <em>Class</em>
           </h1>
           <img
             src="/images/magnifiying.gif"
             alt="Magnifiying GIF"
-            className="h-40 pb-15"
+            className="h-40 pb-15 slide-in"
           />
         </div>
-        <h3 className="text-white font-sans font-bold mb-4">
+        <h3 className="text-white font-sans font-bold mb-4 slide-in">
           <em>
             A step-by-step guide to every class at the University of Guelph
           </em>
         </h3>
-        <form className="flex" onSubmit={handleSubmit}>
+        <form className="flex slide-in" onSubmit={handleSubmit}>
           <input
             type="text"
             className="p-3 w-96 h-16 rounded-xl"
@@ -92,12 +92,12 @@ export default function Page() {
           />
         </form>
 
-        <Link href="/allClasses" className="text-white font-sans font-bold mt-20 relative">
+        <Link href="/allClasses" className="text-white font-sans font-bold mt-20 relative slide-in">
           View all classes here &gt;&gt;&gt;
         </Link>
       </div>
       {masterList.length > 0 && (
-        <PathDisplay key={myKey} masterList={masterList} mapsCode={mapsCode} />
+        <PathDisplay key={myKey} masterList={masterList} mapsCode={mapsCode} className="slide-in"/>
       )}
     </main>
   );
