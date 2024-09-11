@@ -1201,7 +1201,17 @@ export default function AllClasses() {
               Richards (RICH)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+            <div className="flex flex-col">
+                <Link href="/?classCode=RICH2520" className="classLink">
+                  RICH 2520
+                </Link>
+                <Link href="/?classCode=RICH2529" className="classLink">
+                  RICH 2529
+                </Link>
+                <Link href="/?classCode=RICH2531" className="classLink">
+                  RICH 2531
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
