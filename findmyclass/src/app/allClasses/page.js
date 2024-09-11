@@ -164,7 +164,32 @@ export default function AllClasses() {
               Rozanski (ROZH)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=ROZH101" className="classLink">
+                  ROZH101
+                </Link>
+                <Link href="/?classCode=ROZH102" className="classLink">
+                  ROZH102
+                </Link>
+                <Link href="/?classCode=ROZH103" className="classLink">
+                  ROZH103
+                </Link>
+                <Link href="/?classCode=ROZH104" className="classLink">
+                  ROZH104
+                </Link>
+                <Link href="/?classCode=ROZH105" className="classLink">
+                  ROZH105
+                </Link>
+                <Link href="/?classCode=ROZH106" className="classLink">
+                  ROZH106
+                </Link>
+                <Link href="/?classCode=ROZH108" className="classLink">
+                  ROZH108
+                </Link>
+                <Link href="/?classCode=ROZH109" className="classLink">
+                  ROZH109
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4" className="mb-4">
