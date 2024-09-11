@@ -769,7 +769,209 @@ export default function AllClasses() {
               MacKinnon (MCKN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=MCKN16" className="classLink">
+                  MCKN 16
+                </Link>
+                <Link href="/?classCode=MCKN18" className="classLink">
+                  MCKN 18
+                </Link>
+                <Link href="/?classCode=MCKN19" className="classLink">
+                  MCKN 19
+                </Link>
+                <Link href="/?classCode=MCKN19A" className="classLink">
+                  MCKN 19A
+                </Link>
+                <Link href="/?classCode=MCKN20" className="classLink">
+                  MCKN 20
+                </Link>
+                <Link href="/?classCode=MCKN21" className="classLink">
+                  MCKN 21
+                </Link>
+                <Link href="/?classCode=MCKN24" className="classLink">
+                  MCKN 24
+                </Link>
+                <Link href="/?classCode=MCKN25A" className="classLink">
+                  MCKN 25A
+                </Link>
+                <Link href="/?classCode=MCKN25B" className="classLink">
+                  MCKN 25B
+                </Link>
+                <Link href="/?classCode=MCKN26" className="classLink">
+                  MCKN 26
+                </Link>
+                <Link href="/?classCode=MCKN26A" className="classLink">
+                  MCKN 26A
+                </Link>
+                <Link href="/?classCode=MCKN27" className="classLink">
+                  MCKN 27
+                </Link>
+                <Link href="/?classCode=MCKN28" className="classLink">
+                  MCKN 28
+                </Link>
+                <Link href="/?classCode=MCKN29" className="classLink">
+                  MCKN 29
+                </Link>
+                <Link href="/?classCode=MCKN30B" className="classLink">
+                  MCKN 30B
+                </Link>
+                <Link href="/?classCode=MCKN31" className="classLink">
+                  MCKN 31
+                </Link>
+                <Link href="/?classCode=MCKN101" className="classLink">
+                  MCKN 101
+                </Link>
+                <Link href="/?classCode=MCKN103" className="classLink">
+                  MCKN 103
+                </Link>
+                <Link href="/?classCode=MCKN108" className="classLink">
+                  MCKN 108
+                </Link>
+                <Link href="/?classCode=MCKN109" className="classLink">
+                  MCKN 109
+                </Link>
+                <Link href="/?classCode=MCKN114" className="classLink">
+                  MCKN 114
+                </Link>
+                <Link href="/?classCode=MCKN115" className="classLink">
+                  MCKN 115
+                </Link>
+                <Link href="/?classCode=MCKN116" className="classLink">
+                  MCKN 116
+                </Link>
+                <Link href="/?classCode=MCKN117" className="classLink">
+                  MCKN 117
+                </Link>
+                <Link href="/?classCode=MCKN118" className="classLink">
+                  MCKN 118
+                </Link>
+                <Link href="/?classCode=MCKN118A" className="classLink">
+                  MCKN 118A
+                </Link>
+                <Link href="/?classCode=MCKN119" className="classLink">
+                  MCKN 119
+                </Link>
+                <Link href="/?classCode=MCKN119A" className="classLink">
+                  MCKN 119A
+                </Link>
+                <Link href="/?classCode=MCKN120" className="classLink">
+                  MCKN 120
+                </Link>
+                <Link href="/?classCode=MCKN121" className="classLink">
+                  MCKN 121
+                </Link>
+                <Link href="/?classCode=MCKN128" className="classLink">
+                  MCKN 128
+                </Link>
+                <Link href="/?classCode=MCKN129" className="classLink">
+                  MCKN 129
+                </Link>
+                <Link href="/?classCode=MCKN130" className="classLink">
+                  MCKN 130
+                </Link>
+                <Link href="/?classCode=MCKN131" className="classLink">
+                  MCKN 131
+                </Link>
+                <Link href="/?classCode=MCKN132" className="classLink">
+                  MCKN 132
+                </Link>
+                <Link href="/?classCode=MCKN223" className="classLink">
+                  MCKN 223
+                </Link>
+                <Link href="/?classCode=MCKN224" className="classLink">
+                  MCKN 224
+                </Link>
+                <Link href="/?classCode=MCKN225" className="classLink">
+                  MCKN 225
+                </Link>
+                <Link href="/?classCode=MCKN226" className="classLink">
+                  MCKN 226
+                </Link>
+                <Link href="/?classCode=MCKN227" className="classLink">
+                  MCKN 227
+                </Link>
+                <Link href="/?classCode=MCKN228" className="classLink">
+                  MCKN 228
+                </Link>
+                <Link href="/?classCode=MCKN229" className="classLink">
+                  MCKN 229
+                </Link>
+                <Link href="/?classCode=MCKN230" className="classLink">
+                  MCKN 230
+                </Link>
+                <Link href="/?classCode=MCKN231" className="classLink">
+                  MCKN 231
+                </Link>
+                <Link href="/?classCode=MCKN232" className="classLink">
+                  MCKN 232
+                </Link>
+                <Link href="/?classCode=MCKN233" className="classLink">
+                  MCKN 233
+                </Link>
+                <Link href="/?classCode=MCKN234" className="classLink">
+                  MCKN 234
+                </Link>
+                <Link href="/?classCode=MCKN235" className="classLink">
+                  MCKN 235
+                </Link>
+                <Link href="/?classCode=MCKN236" className="classLink">
+                  MCKN 236
+                </Link>
+                <Link href="/?classCode=MCKN237" className="classLink">
+                  MCKN 237
+                </Link>
+                <Link href="/?classCode=MCKN238" className="classLink">
+                  MCKN 238
+                </Link>
+                <Link href="/?classCode=MCKN303" className="classLink">
+                  MCKN 303
+                </Link>
+                <Link href="/?classCode=MCKN304" className="classLink">
+                  MCKN 304
+                </Link>
+                <Link href="/?classCode=MCKN305" className="classLink">
+                  MCKN 305
+                </Link>
+                <Link href="/?classCode=MCKN306" className="classLink">
+                  MCKN 306
+                </Link>
+                <Link href="/?classCode=MCKN307" className="classLink">
+                  MCKN 307
+                </Link>
+                <Link href="/?classCode=MCKN308" className="classLink">
+                  MCKN 308
+                </Link>
+                <Link href="/?classCode=MCKN309" className="classLink">
+                  MCKN 309
+                </Link>
+                <Link href="/?classCode=MCKN310" className="classLink">
+                  MCKN 310
+                </Link>
+                <Link href="/?classCode=MCKN311" className="classLink">
+                  MCKN 311
+                </Link>
+                <Link href="/?classCode=MCKN312" className="classLink">
+                  MCKN 312
+                </Link>
+                <Link href="/?classCode=MCKN313" className="classLink">
+                  MCKN 313
+                </Link>
+                <Link href="/?classCode=MCKN314" className="classLink">
+                  MCKN 314
+                </Link>
+                <Link href="/?classCode=MCKN315" className="classLink">
+                  MCKN 315
+                </Link>
+                <Link href="/?classCode=MCKN316" className="classLink">
+                  MCKN 316
+                </Link>
+                <Link href="/?classCode=MCKN317" className="classLink">
+                  MCKN 317
+                </Link>
+                <Link href="/?classCode=MCKN318" className="classLink">
+                  MCKN 318
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -796,6 +998,28 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-13"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Richards (RICH)
+            </AccordionTrigger>
+            <AccordionContent className="bg-black text-white p-4 text-lg">
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem
+            value="item-14"
+            className={`mb-4 ${animate ? "slide-in" : ""}`}
+          >
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Food Science (FS)
+            </AccordionTrigger>
+            <AccordionContent className="bg-black text-white p-4 text-lg">
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem
+            value="item-15"
             className={`mb-4 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
