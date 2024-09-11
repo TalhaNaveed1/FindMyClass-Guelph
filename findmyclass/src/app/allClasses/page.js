@@ -982,7 +982,7 @@ export default function AllClasses() {
               Macdonald Institute (MINS)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-            <div className="flex flex-col">
+              <div className="flex flex-col">
                 <Link href="/?classCode=MINSB3" className="classLink">
                   MINS B3
                 </Link>
@@ -1048,7 +1048,149 @@ export default function AllClasses() {
               Crop Science (CRSC)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=CRSC101" className="classLink">
+                  CRSC 101
+                </Link>
+                <Link href="/?classCode=CRSC104" className="classLink">
+                  CRSC 104
+                </Link>
+                <Link href="/?classCode=CRSC105" className="classLink">
+                  CRSC 105
+                </Link>
+                <Link href="/?classCode=CRSC106" className="classLink">
+                  CRSC 106
+                </Link>
+                <Link href="/?classCode=CRSC107" className="classLink">
+                  CRSC 107
+                </Link>
+                <Link href="/?classCode=CRSC109" className="classLink">
+                  CRSC 109
+                </Link>
+                <Link href="/?classCode=CRSC110" className="classLink">
+                  CRSC 110
+                </Link>
+                <Link href="/?classCode=CRSC111" className="classLink">
+                  CRSC 111
+                </Link>
+                <Link href="/?classCode=CRSC112" className="classLink">
+                  CRSC 112
+                </Link>
+                <Link href="/?classCode=CRSC113" className="classLink">
+                  CRSC 113
+                </Link>
+                <Link href="/?classCode=CRSC114" className="classLink">
+                  CRSC 114
+                </Link>
+                <Link href="/?classCode=CRSC115" className="classLink">
+                  CRSC 115
+                </Link>
+                <Link href="/?classCode=CRSC116" className="classLink">
+                  CRSC 116
+                </Link>
+                <Link href="/?classCode=CRSC117" className="classLink">
+                  CRSC 117
+                </Link>
+                <Link href="/?classCode=CRSC118" className="classLink">
+                  CRSC 118
+                </Link>
+                <Link href="/?classCode=CRSC119" className="classLink">
+                  CRSC 119
+                </Link>
+                <Link href="/?classCode=CRSC121A" className="classLink">
+                  CRSC 121A
+                </Link>
+                <Link href="/?classCode=CRSC122" className="classLink">
+                  CRSC 122
+                </Link>
+                <Link href="/?classCode=CRSC123" className="classLink">
+                  CRSC 123
+                </Link>
+                <Link href="/?classCode=CRSC124" className="classLink">
+                  CRSC 124
+                </Link>
+                <Link href="/?classCode=CRSC127" className="classLink">
+                  CRSC 127
+                </Link>
+                <Link href="/?classCode=CRSC133" className="classLink">
+                  CRSC 133
+                </Link>
+                <Link href="/?classCode=CRSC134" className="classLink">
+                  CRSC 134
+                </Link>
+                <Link href="/?classCode=CRSC136" className="classLink">
+                  CRSC 136
+                </Link>
+                <Link href="/?classCode=CRSC138" className="classLink">
+                  CRSC 138
+                </Link>
+                <Link href="/?classCode=CRSC139" className="classLink">
+                  CRSC 139
+                </Link>
+                <Link href="/?classCode=CRSC140" className="classLink">
+                  CRSC 140
+                </Link>
+                <Link href="/?classCode=CRSC141" className="classLink">
+                  CRSC 141
+                </Link>
+                <Link href="/?classCode=CRSC151" className="classLink">
+                  CRSC 151
+                </Link>
+                <Link href="/?classCode=CRSC205" className="classLink">
+                  CRSC 205
+                </Link>
+                <Link href="/?classCode=CRSC210" className="classLink">
+                  CRSC 210
+                </Link>
+                <Link href="/?classCode=CRSC216" className="classLink">
+                  CRSC 216
+                </Link>
+                <Link href="/?classCode=CRSC219" className="classLink">
+                  CRSC 219
+                </Link>
+                <Link href="/?classCode=CRSC222" className="classLink">
+                  CRSC 222
+                </Link>
+                <Link href="/?classCode=CRSC225" className="classLink">
+                  CRSC 225
+                </Link>
+                <Link href="/?classCode=CRSC302" className="classLink">
+                  CRSC 302
+                </Link>
+                <Link href="/?classCode=CRSC307" className="classLink">
+                  CRSC 307
+                </Link>
+                <Link href="/?classCode=CRSC308" className="classLink">
+                  CRSC 308
+                </Link>
+                <Link href="/?classCode=CRSC310" className="classLink">
+                  CRSC 310
+                </Link>
+                <Link href="/?classCode=CRSC318" className="classLink">
+                  CRSC 318
+                </Link>
+                <Link href="/?classCode=CRSC322" className="classLink">
+                  CRSC 322
+                </Link>
+                <Link href="/?classCode=CRSC403" className="classLink">
+                  CRSC 403
+                </Link>
+                <Link href="/?classCode=CRSC411" className="classLink">
+                  CRSC 411
+                </Link>
+                <Link href="/?classCode=CRSC415" className="classLink">
+                  CRSC 415
+                </Link>
+                <Link href="/?classCode=CRSC418" className="classLink">
+                  CRSC 418
+                </Link>
+                <Link href="/?classCode=CRSC419" className="classLink">
+                  CRSC 419
+                </Link>
+                <Link href="/?classCode=CRSC426" className="classLink">
+                  CRSC 426
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
