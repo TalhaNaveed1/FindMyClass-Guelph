@@ -1222,7 +1222,23 @@ export default function AllClasses() {
               Food Science (FS)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+            <div className="flex flex-col">
+                <Link href="/?classCode=FS102" className="classLink">
+                  FS 102
+                </Link>
+                <Link href="/?classCode=FS128" className="classLink">
+                  FS 128
+                </Link>
+                <Link href="/?classCode=FS129" className="classLink">
+                  FS 129
+                </Link>
+                <Link href="/?classCode=FS241" className="classLink">
+                  FS 241
+                </Link>
+                <Link href="/?classCode=FS246" className="classLink">
+                  FS 246
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
