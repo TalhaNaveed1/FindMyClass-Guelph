@@ -31,3 +31,19 @@ a:hover:after {
 a.classLink:hover:after {
   width:10%
 }
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideInFromLeft 0.5s ease-in-out forwards;
+}
+

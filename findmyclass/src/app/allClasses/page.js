@@ -1,4 +1,6 @@
-import React from "react";
+"use client"
+
+import React, { useState, useEffect } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -8,6 +10,14 @@ import {
 import Link from "next/link";
 
 export default function AllClasses() {
+
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    setAnimate(true);
+  }, []);
+
+
   return (
     <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full">
       <div>
@@ -15,7 +25,7 @@ export default function AllClasses() {
           The Full Class List
         </h1>
         <Accordion type="single" collapsible className="mb-10">
-          <AccordionItem value="item-1" className="mb-4">
+          <AccordionItem value="item-1" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Alexander (ALEX)
             </AccordionTrigger>
@@ -30,7 +40,7 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-2" className="mb-4">
+          <AccordionItem value="item-2" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Thornbrough (THRN)
             </AccordionTrigger>
@@ -159,7 +169,7 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3" className="mb-4">
+          <AccordionItem value="item-3" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Rozanski (ROZH)
             </AccordionTrigger>
@@ -192,7 +202,7 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-4" className="mb-4">
+          <AccordionItem value="item-4" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Animal Nutrition (ANNU)
             </AccordionTrigger>
@@ -291,7 +301,7 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-5" className="mb-4">
+          <AccordionItem value="item-5" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               War Memorial (WMEM)
             </AccordionTrigger>
@@ -303,15 +313,103 @@ export default function AllClasses() {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-6" className="mb-4">
+          <AccordionItem value="item-6" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Science Complex (SCIE)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=SCIE1301" className="classLink">
+                  SCIE1301
+                </Link>
+                <Link href="/?classCode=SCIE1304" className="classLink">
+                  SCIE1304
+                </Link>
+                <Link href="/?classCode=SCIE1305" className="classLink">
+                  SCIE1305
+                </Link>
+                <Link href="/?classCode=SCIE1401" className="classLink">
+                  SCIE1401
+                </Link>
+                <Link href="/?classCode=SCIE1403" className="classLink">
+                  SCIE1403
+                </Link>
+                <Link href="/?classCode=SCIE1404" className="classLink">
+                  SCIE1404
+                </Link>
+                <Link href="/?classCode=SCIE1405" className="classLink">
+                  SCIE1405
+                </Link>
+                <Link href="/?classCode=SCIE1406" className="classLink">
+                  SCIE1406
+                </Link>
+                <Link href="/?classCode=SCIE1407" className="classLink">
+                  SCIE1407
+                </Link>
+                <Link href="/?classCode=SCIE1408" className="classLink">
+                  SCIE1408
+                </Link>
+                <Link href="/?classCode=SCIE1409" className="classLink">
+                  SCIE1409
+                </Link>
+                <Link href="/?classCode=SCIE1410" className="classLink">
+                  SCIE1410
+                </Link>
+                <Link href="/?classCode=SCIE2101" className="classLink">
+                  SCIE2101
+                </Link>
+                <Link href="/?classCode=SCIE2102" className="classLink">
+                  SCIE2102
+                </Link>
+                <Link href="/?classCode=SCIE2103" className="classLink">
+                  SCIE2103
+                </Link>
+                <Link href="/?classCode=SCIE2104" className="classLink">
+                  SCIE2104
+                </Link>
+                <Link href="/?classCode=SCIE2105" className="classLink">
+                  SCIE2105
+                </Link>
+                <Link href="/?classCode=SCIE2106" className="classLink">
+                  SCIE2106
+                </Link>
+                <Link href="/?classCode=SCIE2108" className="classLink">
+                  SCIE2108
+                </Link>
+                <Link href="/?classCode=SCIE2109" className="classLink">
+                  SCIE2109
+                </Link>
+                <Link href="/?classCode=SCIE2110" className="classLink">
+                  SCIE2110
+                </Link>
+                <Link href="/?classCode=SCIE2111" className="classLink">
+                  SCIE2111
+                </Link>
+                <Link href="/?classCode=SCIE2112" className="classLink">
+                  SCIE2112
+                </Link>
+                <Link href="/?classCode=SCIE2303" className="classLink">
+                  SCIE2303
+                </Link>
+                <Link href="/?classCode=SCIE2304" className="classLink">
+                  SCIE2304
+                </Link>
+                <Link href="/?classCode=SCIE2305" className="classLink">
+                  SCIE2305
+                </Link>
+                <Link href="/?classCode=SCIE2306" className="classLink">
+                  SCIE2306
+                </Link>
+                <Link href="/?classCode=SCIE2307" className="classLink">
+                  SCIE2307
+                </Link>
+                <Link href="/?classCode=SCIE2308" className="classLink">
+                  SCIE2308
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-7" className="mb-4">
+          <AccordionItem value="item-7" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacLachlan (MCLN)
             </AccordionTrigger>
@@ -319,7 +417,7 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-8" className="mb-4">
+          <AccordionItem value="item-8" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacNaughton (MACN)
             </AccordionTrigger>
@@ -327,7 +425,7 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-9" className="mb-4">
+          <AccordionItem value="item-9" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               H.L Hutt (HUTT)
             </AccordionTrigger>
@@ -335,7 +433,7 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-10" className="mb-4">
+          <AccordionItem value="item-10" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacKinnon (MCKN)
             </AccordionTrigger>
@@ -343,7 +441,7 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-11" className="mb-4">
+          <AccordionItem value="item-11" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Macdonald Institute (MINS)
             </AccordionTrigger>
@@ -351,7 +449,7 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-12" className="mb-4">
+          <AccordionItem value="item-12" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Crop Science (CRSC)
             </AccordionTrigger>
@@ -359,7 +457,7 @@ export default function AllClasses() {
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-13" className="mb-4">
+          <AccordionItem value="item-13" className={`mb-4 ${animate ? 'slide-in' : ''}`}>
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Library
             </AccordionTrigger>
