@@ -197,7 +197,98 @@ export default function AllClasses() {
               Animal Nutrition (ANNU)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=ANNU102" className="classLink">
+                  ANNU102
+                </Link>
+                <Link href="/?classCode=ANNU103" className="classLink">
+                  ANNU103
+                </Link>
+                <Link href="/?classCode=ANNU104" className="classLink">
+                  ANNU104
+                </Link>
+                <Link href="/?classCode=ANNU105" className="classLink">
+                  ANNU105
+                </Link>
+                <Link href="/?classCode=ANNU107" className="classLink">
+                  ANNU107
+                </Link>
+                <Link href="/?classCode=ANNU110" className="classLink">
+                  ANNU110
+                </Link>
+                <Link href="/?classCode=ANNU115" className="classLink">
+                  ANNU115
+                </Link>
+                <Link href="/?classCode=ANNU116" className="classLink">
+                  ANNU116
+                </Link>
+                <Link href="/?classCode=ANNU129" className="classLink">
+                  ANNU129
+                </Link>
+                <Link href="/?classCode=ANNU130" className="classLink">
+                  ANNU130
+                </Link>
+                <Link href="/?classCode=ANNU131" className="classLink">
+                  ANNU131
+                </Link>
+                <Link href="/?classCode=ANNU133" className="classLink">
+                  ANNU133
+                </Link>
+                <Link href="/?classCode=ANNU141" className="classLink">
+                  ANNU141
+                </Link>
+                <Link href="/?classCode=ANNU156" className="classLink">
+                  ANNU156
+                </Link>
+                <Link href="/?classCode=ANNU204" className="classLink">
+                  ANNU204
+                </Link>
+                <Link href="/?classCode=ANNU205" className="classLink">
+                  ANNU205
+                </Link>
+                <Link href="/?classCode=ANNU208" className="classLink">
+                  ANNU208
+                </Link>
+                <Link href="/?classCode=ANNU212" className="classLink">
+                  ANNU212
+                </Link>
+                <Link href="/?classCode=ANNU214" className="classLink">
+                  ANNU214
+                </Link>
+                <Link href="/?classCode=ANNU215" className="classLink">
+                  ANNU215
+                </Link>
+                <Link href="/?classCode=ANNU216" className="classLink">
+                  ANNU216
+                </Link>
+                <Link href="/?classCode=ANNU217" className="classLink">
+                  ANNU217
+                </Link>
+                <Link href="/?classCode=ANNU218" className="classLink">
+                  ANNU218
+                </Link>
+                <Link href="/?classCode=ANNU220" className="classLink">
+                  ANNU220
+                </Link>
+                <Link href="/?classCode=ANNU302" className="classLink">
+                  ANNU302
+                </Link>
+                <Link href="/?classCode=ANNU305" className="classLink">
+                  ANNU305
+                </Link>
+                <Link href="/?classCode=ANNU306" className="classLink">
+                  ANNU306
+                </Link>
+                <Link href="/?classCode=ANNU327" className="classLink">
+                  ANNU327
+                </Link>
+                <Link href="/?classCode=ANNU337" className="classLink">
+                  ANNU337
+                </Link>
+                <Link href="/?classCode=ANNU355" className="classLink">
+                  ANNU355
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5" className="mb-4">
