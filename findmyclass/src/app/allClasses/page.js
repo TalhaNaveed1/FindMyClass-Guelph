@@ -296,7 +296,11 @@ export default function AllClasses() {
               War Memorial (WMEM)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=WMEM" className="classLink">
+                  WMEM
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6" className="mb-4">
