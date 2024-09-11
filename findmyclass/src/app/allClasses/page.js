@@ -546,16 +546,16 @@ export default function AllClasses() {
             <AccordionContent className="bg-black text-white p-4 text-lg">
               <div className="flex flex-col">
                 <Link href="/?classCode=MCLN101" className="classLink">
-                  MCLN101
+                  MCLN 101
                 </Link>
                 <Link href="/?classCode=MCLN102" className="classLink">
-                  MCLN102
+                  MCLN 102
                 </Link>
                 <Link href="/?classCode=MCLN103" className="classLink">
-                  MCLN103
+                  MCLN 103
                 </Link>
                 <Link href="/?classCode=MCLN107" className="classLink">
-                  MCLN107
+                  MCLN 107
                 </Link>
               </div>
             </AccordionContent>
@@ -568,7 +568,161 @@ export default function AllClasses() {
               MacNaughton (MACN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=MACN8" className="classLink">
+                  MACN 8
+                </Link>
+                <Link href="/?classCode=MACN9" className="classLink">
+                  MACN 9
+                </Link>
+                <Link href="/?classCode=MACN10" className="classLink">
+                  MACN 10
+                </Link>
+                <Link href="/?classCode=MACN12" className="classLink">
+                  MACN 12
+                </Link>
+                <Link href="/?classCode=MACN13" className="classLink">
+                  MACN 13
+                </Link>
+                <Link href="/?classCode=MACN14" className="classLink">
+                  MACN 14
+                </Link>
+                <Link href="/?classCode=MACN15" className="classLink">
+                  MACN 15
+                </Link>
+                <Link href="/?classCode=MACN16" className="classLink">
+                  MACN 16
+                </Link>
+                <Link href="/?classCode=MACN17" className="classLink">
+                  MACN 17
+                </Link>
+                <Link href="/?classCode=MACN18" className="classLink">
+                  MACN 18
+                </Link>
+                <Link href="/?classCode=MACN20A" className="classLink">
+                  MACN 20A
+                </Link>
+                <Link href="/?classCode=MACN22" className="classLink">
+                  MACN 22
+                </Link>
+                <Link href="/?classCode=MACN23" className="classLink">
+                  MACN 23
+                </Link>
+                <Link href="/?classCode=MACN24" className="classLink">
+                  MACN 24
+                </Link>
+                <Link href="/?classCode=MACN25" className="classLink">
+                  MACN 25
+                </Link>
+                <Link href="/?classCode=MACN30" className="classLink">
+                  MACN 30
+                </Link>
+                <Link href="/?classCode=MACN54" className="classLink">
+                  MACN 54
+                </Link>
+                <Link href="/?classCode=MACN55" className="classLink">
+                  MACN 55
+                </Link>
+                <Link href="/?classCode=MACN56" className="classLink">
+                  MACN 56
+                </Link>
+                <Link href="/?classCode=MACN57" className="classLink">
+                  MACN 57
+                </Link>
+                <Link href="/?classCode=MACN58" className="classLink">
+                  MACN 58
+                </Link>
+                <Link href="/?classCode=MACN101" className="classLink">
+                  MACN 101
+                </Link>
+                <Link href="/?classCode=MACN104" className="classLink">
+                  MACN 104
+                </Link>
+                <Link href="/?classCode=MACN105" className="classLink">
+                  MACN 105
+                </Link>
+                <Link href="/?classCode=MACN113" className="classLink">
+                  MACN 113
+                </Link>
+                <Link href="/?classCode=MACN114" className="classLink">
+                  MACN 114
+                </Link>
+                <Link href="/?classCode=MACN118" className="classLink">
+                  MACN 118
+                </Link>
+                <Link href="/?classCode=MACN120" className="classLink">
+                  MACN 120
+                </Link>
+                <Link href="/?classCode=MACN121" className="classLink">
+                  MACN 121
+                </Link>
+                <Link href="/?classCode=MACN125" className="classLink">
+                  MACN 125
+                </Link>
+                <Link href="/?classCode=MACN128" className="classLink">
+                  MACN 128
+                </Link>
+                <Link href="/?classCode=MACN129" className="classLink">
+                  MACN 129
+                </Link>
+                <Link href="/?classCode=MACN130" className="classLink">
+                  MACN 130
+                </Link>
+                <Link href="/?classCode=MACN131" className="classLink">
+                  MACN 131
+                </Link>
+                <Link href="/?classCode=MACN132" className="classLink">
+                  MACN 132
+                </Link>
+                <Link href="/?classCode=MACN133" className="classLink">
+                  MACN 133
+                </Link>
+                <Link href="/?classCode=MACN135" className="classLink">
+                  MACN 135
+                </Link>
+                <Link href="/?classCode=MACN136" className="classLink">
+                  MACN 136
+                </Link>
+                <Link href="/?classCode=MACN202" className="classLink">
+                  MACN 202
+                </Link>
+                <Link href="/?classCode=MACN203" className="classLink">
+                  MACN 203
+                </Link>
+                <Link href="/?classCode=MACN222" className="classLink">
+                  MACN 222
+                </Link>
+                <Link href="/?classCode=MACN226" className="classLink">
+                  MACN 226
+                </Link>
+                <Link href="/?classCode=MACN228" className="classLink">
+                  MACN 228
+                </Link>
+                <Link href="/?classCode=MACN230" className="classLink">
+                  MACN 230
+                </Link>
+                <Link href="/?classCode=MACN231" className="classLink">
+                  MACN 231
+                </Link>
+                <Link href="/?classCode=MACN232" className="classLink">
+                  MACN 232
+                </Link>
+                <Link href="/?classCode=MACN234" className="classLink">
+                  MACN 234
+                </Link>
+                <Link href="/?classCode=MACN237" className="classLink">
+                  MACN 237
+                </Link>
+                <Link href="/?classCode=MACN238" className="classLink">
+                  MACN 238
+                </Link>
+                <Link href="/?classCode=MACN239" className="classLink">
+                  MACN 239
+                </Link>
+                <Link href="/?classCode=MACN240" className="classLink">
+                  MACN 240
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
