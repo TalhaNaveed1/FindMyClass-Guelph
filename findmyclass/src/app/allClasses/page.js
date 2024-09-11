@@ -16,86 +16,108 @@ export default function AllClasses() {
         </h1>
         <Accordion type="single" collapsible className="mb-10">
           <AccordionItem value="item-1" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">ALEX</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Alexander (ALEX)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <Link href="/?classCode=ALEX100">ALEX100</Link>
-              <Link href="/?classCode=ALEX200">ALEX200</Link>
+              <div className="flex flex-col">
+                <Link href="/?classCode=ALEX100" className="classLink">ALEX100</Link>
+                <Link href="/?classCode=ALEX200" className="classLink">ALEX200</Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">THRN</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Thornbrough (THRN)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">ROZH</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Rozanski (ROZH)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">ANNU</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Animal Nutrition (ANNU)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">WMEM</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              War Memorial (WMEM)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">SCIE</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Science Complex (SCIE)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-7" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">MCLN</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              MacLachlan (MCLN)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-8" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">MACN</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              MacNaughton (MACN)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-9" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">HUTT</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              H.L Hutt (HUTT)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-10" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">MACK</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              MacKinnon (MCKN)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-11" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">MCKN</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Macdonald Institute (MINS)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-12" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">MINS</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Crop Science (CRSC)
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-13" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">CRSC</AccordionTrigger>
-            <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-14" className="mb-4">
-            <AccordionTrigger className="bg-black text-white p-4 text-2xl">LIBRARY</AccordionTrigger>
+            <AccordionTrigger className="bg-black text-white p-4 text-2xl">
+              Library
+            </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>

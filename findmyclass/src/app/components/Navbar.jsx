@@ -10,7 +10,7 @@ export default function Navbar() {
           <img
             src="/images/magnifiying.png"
             alt="Magnifiying pic"
-            className="h-11 ml-1"
+            className="h-11 ml-1 "
           />
         </button>
       </nav>

@@ -6,6 +6,7 @@ a {
   display: inline-block;
   position: relative;
   font-size: large;
+  text-decoration: none;
 }
 
 a:after {
@@ -16,9 +17,13 @@ a:after {
   width: 0;
   bottom: -3px;
   left: 0;
-  transition: width 0.3s;
+  transition: width 0.3s ease;
 }
 
 a:hover:after {
   width: 100%;
+}
+
+a.classLink:hover:after {
+  width:10%
 }
