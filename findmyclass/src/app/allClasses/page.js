@@ -733,7 +733,32 @@ export default function AllClasses() {
               H.L Hutt (HUTT)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col">
+                <Link href="/?classCode=HUTT233" className="classLink">
+                  HUTT 233
+                </Link>
+                <Link href="/?classCode=HUTT234" className="classLink">
+                  HUTT 234
+                </Link>
+                <Link href="/?classCode=HUTT235" className="classLink">
+                  HUTT 235
+                </Link>
+                <Link href="/?classCode=HUTT236" className="classLink">
+                  HUTT 236
+                </Link>
+                <Link href="/?classCode=HUTT240A" className="classLink">
+                  HUTT 240A
+                </Link>
+                <Link href="/?classCode=HUTT240B" className="classLink">
+                  HUTT 240B
+                </Link>
+                <Link href="/?classCode=HUTT240C" className="classLink">
+                  HUTT 240C
+                </Link>
+                <Link href="/?classCode=HUTT240D" className="classLink">
+                  HUTT 240D
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
