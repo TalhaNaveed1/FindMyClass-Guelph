@@ -1249,7 +1249,11 @@ export default function AllClasses() {
               Library
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              Yes. It adheres to the WAI-ARIA design pattern.
+            <div className="flex flex-col">
+                <Link href="/?classCode=LIBRARY" className="classLink">
+                  LIBRARY
+                </Link>
+              </div>
             </AccordionContent>
           </AccordionItem>
         </Accordion>
