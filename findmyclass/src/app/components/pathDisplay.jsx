@@ -41,7 +41,7 @@ export default function PathDisplay({ masterList, mapsCode }) {
         <CarouselContent>
           {masterList.map((item, index) => (
             <CarouselItem key={index}>
-              <Card className="flex flex-col justify-center items-center bg-black border-0 shadow-2xl my-5 w-[350px] ml-20">
+              <Card className="flex flex-col justify-center items-center bg-black border-0 shadow-2xl mt-5 w-[350px] ml-20">
                 <CardHeader>
                   <CardTitle>
                     <img
@@ -68,9 +68,8 @@ export default function PathDisplay({ masterList, mapsCode }) {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
       </Carousel>
+      <h2 className="text-white text-md font-semibold mb-10 mt-3"><em>Swipe left to see all steps</em></h2>
       <div className="mt-5">
         <WalkTime view={1} />
         <ClassMap mapsCode={mapsCode} view={1} />

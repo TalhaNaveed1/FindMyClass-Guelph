@@ -41,12 +41,20 @@ const ClassMap = ({ mapsCode, view }) => {
     googleMapsApiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY,
   });
 
+  const mapComponents = {
+    fullscreenControl: false,
+    streetViewControl: false,
+    mapTypeControl: false,
+    // zoomControl: false,
+  };
+
   return isLoaded ? (
-    <div className="bg-black p-8 rounded-xl mt-5 mb-10">
+    <div className="bg-black p-6 md:p-8 rounded-xl mt-5 mb-10">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={coordinates}
         zoom={17}
+        options={mapComponents}
       >
         <MarkerF position={coordinates} />
       </GoogleMap>
