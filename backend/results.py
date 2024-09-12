@@ -1,5 +1,5 @@
 import math
-import pandas
+import pandas as pd
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from waitress import serve
@@ -26,7 +26,7 @@ def read_data():
     # Month: January:0, December: 11
     # Traffic Level: Low: 0, Mid: 1, High: 2
     file_path = "files/data.csv"
-    data_path = pandas.read_csv(file_path)
+    data_path = pd.read_csv(file_path)
     data = data_path.values.tolist()
     return data
 

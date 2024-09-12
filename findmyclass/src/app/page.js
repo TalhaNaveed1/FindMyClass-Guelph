@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./globals.css";
 import PathDisplay from "./components/pathDisplay";
 import { fetchData } from "./utils/fetchData";
@@ -19,7 +19,7 @@ export default function Page() {
 
   const searchParams = useSearchParams();
   useEffect(() => {
-    const classCode = searchParams.get('classCode');
+    const classCode = searchParams.get("classCode");
     if (classCode) {
       setInputValue(classCode);
       findPath(classCode);
@@ -31,7 +31,7 @@ export default function Page() {
   };
 
   const findPath = async (classCode) => {
-    if (!classCode) return; 
+    if (!classCode) return;
     const code = classCode.replace(/\s+/g, "").toUpperCase();
     setMapsCode(code);
     const data = await fetchData(code);
@@ -58,6 +58,16 @@ export default function Page() {
     console.log(tempMasterList);
   };
 
+  useEffect(() => {
+    if (masterList.length > 0) {
+      const scrollDistance = window.innerWidth >= 768 ? 800 : 400;
+      window.scrollTo({
+        top: scrollDistance,
+        behavior: "smooth",
+      });
+    }
+  }, [masterList]);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     findPath(inputValue);
@@ -66,7 +76,7 @@ export default function Page() {
   return (
     <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full px-4 md:px-8">
       <div className="flex flex-col justify-center items-center text-center slide-in">
-        <div className="flex">
+        <div className="flex mt-10">
           <h1 className="text-white font-sans font-bold text-5xl md:text-8xl slide-in">
             FindMy
           </h1>
@@ -80,11 +90,12 @@ export default function Page() {
           />
         </div>
         <h3 className="text-white font-sans font-bold text-sm md:text-2xl mb-4 slide-in">
-          <em>
-            Your guide to every class at the University of Guelph
-          </em>
+          <em>Your guide to every class at the University of Guelph</em>
         </h3>
-        <form className="flex slide-in w-full max-w-xs md:max-w-md" onSubmit={handleSubmit}>
+        <form
+          className="flex slide-in w-full max-w-xs md:max-w-md"
+          onSubmit={handleSubmit}
+        >
           <input
             type="text"
             className="p-3 w-full h-12 md:h-16 rounded-xl"
@@ -94,14 +105,21 @@ export default function Page() {
           />
         </form>
 
-        <Link href="/allClasses" className="text-white font-sans font-bold mt-10 md:mt-20 relative slide-in">
+        <Link
+          href="/allClasses"
+          className="text-white font-sans font-bold mt-10 md:mt-20 relative slide-in"
+        >
           View all classes here &gt;&gt;&gt;
         </Link>
       </div>
       {masterList.length > 0 && (
-        <PathDisplay key={myKey} masterList={masterList} mapsCode={mapsCode} className="slide-in" />
+        <PathDisplay
+          key={myKey}
+          masterList={masterList}
+          mapsCode={mapsCode}
+          className="slide-in"
+        />
       )}
     </main>
   );
 }
-

@@ -69,7 +69,7 @@ export default function PathDisplay({ masterList, mapsCode }) {
           ))}
         </CarouselContent>
       </Carousel>
-      <h2 className="text-white text-md font-semibold mb-10 mt-3"><em>Swipe left to see all steps</em></h2>
+      <h2 className="text-white text-sm font-semibold mb-10 mt-1"><em>Swipe left to see all steps</em></h2>
       <div className="mt-5">
         <WalkTime view={1} />
         <ClassMap mapsCode={mapsCode} view={1} />
