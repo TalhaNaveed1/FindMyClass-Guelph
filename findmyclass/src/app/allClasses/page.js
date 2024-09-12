@@ -17,21 +17,21 @@ export default function AllClasses() {
   }, []);
 
   return (
-    <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full">
-      <div>
-        <h1 className="text-white font-sans font-bold text-8xl my-16">
+    <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full max-w-full">
+      <div className="w-full max-w-4xl">
+        <h1 className="flex items-center justify-center text-center text-white font-sans font-bold text-4xl sm:text-6xl md:text-8xl my-8 md:my-16">
           The Full Class List
         </h1>
-        <Accordion type="single" collapsible className="mb-10">
+        <Accordion type="single" collapsible className="mb-10 w-full">
           <AccordionItem
             value="item-1"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Alexander (ALEX)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=ALEX100" className="classLink">
                   ALEX 100
                 </Link>
@@ -43,13 +43,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-2"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Thornbrough (THRN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=THRN1002" className="classLink">
                   THRN 1002
                 </Link>
@@ -175,13 +175,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-3"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Rozanski (ROZH)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=ROZH101" className="classLink">
                   ROZH 101
                 </Link>
@@ -211,13 +211,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-4"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Animal Nutrition (ANNU)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=ANNU102" className="classLink">
                   ANNU 102
                 </Link>
@@ -313,7 +313,7 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-5"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               War Memorial (WMEM)
@@ -328,13 +328,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-6"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Science Complex (SCIE)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=SCIE1301" className="classLink">
                   SCIE 1301
                 </Link>
@@ -538,13 +538,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-7"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacLachlan (MCLN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=MCLN101" className="classLink">
                   MCLN 101
                 </Link>
@@ -562,13 +562,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-8"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacNaughton (MACN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=MACN8" className="classLink">
                   MACN 8
                 </Link>
@@ -727,13 +727,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-9"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               H.L Hutt (HUTT)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=HUTT233" className="classLink">
                   HUTT 233
                 </Link>
@@ -763,13 +763,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-10"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               MacKinnon (MCKN)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=MCKN16" className="classLink">
                   MCKN 16
                 </Link>
@@ -976,13 +976,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-11"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Macdonald Institute (MINS)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=MINSB3" className="classLink">
                   MINS B3
                 </Link>
@@ -1042,13 +1042,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-12"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Crop Science (CRSC)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-              <div className="flex flex-col">
+              <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=CRSC101" className="classLink">
                   CRSC 101
                 </Link>
@@ -1195,13 +1195,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-13"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Richards (RICH)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-            <div className="flex flex-col">
+            <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=RICH2520" className="classLink">
                   RICH 2520
                 </Link>
@@ -1216,13 +1216,13 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-14"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Food Science (FS)
             </AccordionTrigger>
             <AccordionContent className="bg-black text-white p-4 text-lg">
-            <div className="flex flex-col">
+            <div className="flex flex-col space-y-5">
                 <Link href="/?classCode=FS102" className="classLink">
                   FS 102
                 </Link>
@@ -1243,7 +1243,7 @@ export default function AllClasses() {
           </AccordionItem>
           <AccordionItem
             value="item-15"
-            className={`mb-4 ${animate ? "slide-in" : ""}`}
+            className={`mb-4 px-5 md:p-0 ${animate ? "slide-in" : ""}`}
           >
             <AccordionTrigger className="bg-black text-white p-4 text-2xl">
               Library
