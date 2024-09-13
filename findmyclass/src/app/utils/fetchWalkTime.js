@@ -1,5 +1,5 @@
 export async function fetchWalkTime() {
-  const apiResponse = await fetch("http://worldtimeapi.org/api/timezone/America/Toronto");
+  const apiResponse = await fetch("https://worldtimeapi.org/api/timezone/America/Toronto");
   const timeData = await apiResponse.json();
   const datetime = new Date(timeData.datetime);
   const dayOfWeek = datetime.getDay();
