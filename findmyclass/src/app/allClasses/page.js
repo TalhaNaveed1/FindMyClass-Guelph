@@ -17,7 +17,7 @@ export default function AllClasses() {
   }, []);
 
   return (
-    <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center w-full max-w-full">
+    <main className="flex flex-col justify-center items-center min-h-screen bg-johnston bg-cover bg-center bg-fixed w-full max-w-full">
       <div className="w-full max-w-4xl">
         <h1 className="flex items-center justify-center text-center text-white font-sans font-bold text-4xl sm:text-6xl md:text-8xl my-8 md:my-16">
           The Full Class List

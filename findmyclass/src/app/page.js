@@ -100,12 +100,10 @@ function PageContent() {
           <h1 className="text-blue-700 font-sans font-bold text-5xl md:text-8xl slide-in">
             <em>Class</em>
           </h1>
-          <Image
+          <img
             src="/images/magnifiying.gif"
             alt="Magnifiying GIF"
-            width={160}
-            height={160}
-            className="md:h-40 pb-15 slide-in"
+            className="h-20 md:h-40 pb-15 slide-in"
           />
         </div>
         <h3 className="text-white font-sans font-bold text-sm md:text-2xl mb-4 slide-in">
