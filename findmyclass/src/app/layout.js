@@ -4,7 +4,7 @@ import Footer from "./components/Footer"
 
 
 export const metadata = {
-  title: "Find My Class",
+  title: "FindMyClass",
   description: "Created by Talha Naveed",
 };
 

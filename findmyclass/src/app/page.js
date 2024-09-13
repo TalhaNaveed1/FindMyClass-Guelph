@@ -46,7 +46,6 @@ export default function Page() {
     if (!classCode) return;
     const code = classCode.replace(/\s+/g, "").toUpperCase();
     const data = await fetchData(code);
-    console.log("DATA", data);
 
     if (!data.cardDescriptions || !data.imageNames) {
       setIsAlertOpen(true);
@@ -73,7 +72,6 @@ export default function Page() {
     }
 
     setMasterList(tempMasterList);
-    console.log(tempMasterList);
   };
 
   useEffect(() => {

@@ -2,7 +2,6 @@ import React from "react";
 import { GoogleMap, useJsApiLoader, MarkerF } from "@react-google-maps/api";
 
 const ClassMap = ({ mapsCode, view }) => {
-  console.log(mapsCode);
 
   const classCoordinates = {
     ALEX: { lat: 43.5293, lng: -80.2277 },
@@ -45,7 +44,6 @@ const ClassMap = ({ mapsCode, view }) => {
     fullscreenControl: false,
     streetViewControl: false,
     mapTypeControl: false,
-    // zoomControl: false,
   };
 
   return isLoaded ? (

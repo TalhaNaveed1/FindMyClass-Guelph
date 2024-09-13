@@ -7,10 +7,6 @@ export async function fetchWalkTime() {
   const hour = datetime.getHours();
   const displayTime = datetime.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
 
-  console.log(dayOfWeek);
-  console.log(month);
-  console.log('hour',hour);
-
   const backendResponse = await fetch("https://talhanaveedfmcg.pythonanywhere.com/predict", {
     method: "POST",
     headers: {
@@ -24,7 +20,6 @@ export async function fetchWalkTime() {
   });
 
   const predictionData = await backendResponse.json();
-  console.log(predictionData)
   return {
     predictedLevel: predictionData.predictedLevel,
     currentTime: displayTime
