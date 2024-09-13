@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -10,10 +11,12 @@ export default function Navbar() {
             <p className="text-blue-700">
               <em>Class</em>
             </p>
-            <img
+            <Image
               src="/images/magnifiying.png"
               alt="Magnifiying pic"
-              className="h-11 ml-1 "
+              width={25}
+              height={25}
+              className="ml-1 "
             />
           </button>
         </Link>

@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import "./globals.css";
 import PathDisplay from "./components/pathDisplay";
 import { fetchData } from "./utils/fetchData";
 import Link from "next/link";
+import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import {
   AlertDialog,
@@ -18,7 +19,7 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-export default function Page() {
+function PageContent() {
   const [inputValue, setInputValue] = useState("");
   const [classData, setClassData] = useState({
     cardDescriptions: null,
@@ -99,10 +100,12 @@ export default function Page() {
           <h1 className="text-blue-700 font-sans font-bold text-5xl md:text-8xl slide-in">
             <em>Class</em>
           </h1>
-          <img
+          <Image
             src="/images/magnifiying.gif"
             alt="Magnifiying GIF"
-            className="h-20 md:h-40 pb-15 slide-in"
+            width={160}
+            height={160}
+            className="md:h-40 pb-15 slide-in"
           />
         </div>
         <h3 className="text-white font-sans font-bold text-sm md:text-2xl mb-4 slide-in">
@@ -147,7 +150,7 @@ export default function Page() {
                 href="/allClasses"
                 className="text-white font-bold text-md"
               >
-              full class list
+              full class list here
               </Link>
             </AlertDialogDescription>
           </AlertDialogHeader>
@@ -162,5 +165,13 @@ export default function Page() {
         </AlertDialogContent>
       </AlertDialog>
     </main>
+  );
+}
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div className="bg-black text-white font-semibold flex text-center">Loading...</div>}>
+      <PageContent />
+    </Suspense>
   );
 }

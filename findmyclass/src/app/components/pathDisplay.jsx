@@ -92,7 +92,7 @@ export default function PathDisplay({ masterList, mapsCode }) {
                   <CardTitle>
                     <img
                       src={item[2]}
-                      alt="Test"
+                      alt="Class Image"
                       className="w-[550px] h-[350px] object-cover mt-5"
                     />
                   </CardTitle>

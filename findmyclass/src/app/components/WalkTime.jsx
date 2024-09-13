@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { fetchWalkTime } from "../utils/fetchWalkTime";
+import Image from "next/image";
 
 export default function WalkTime({ view }) {
   const [prediction, setPrediction] = useState(null);
