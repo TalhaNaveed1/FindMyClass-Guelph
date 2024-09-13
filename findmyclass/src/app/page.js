@@ -6,6 +6,17 @@ import PathDisplay from "./components/pathDisplay";
 import { fetchData } from "./utils/fetchData";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 
 export default function Page() {
   const [inputValue, setInputValue] = useState("");
@@ -16,6 +27,7 @@ export default function Page() {
   const [masterList, setMasterList] = useState([]);
   const [myKey, setMyKey] = useState(0);
   const [mapsCode, setMapsCode] = useState(null);
+  const [isAlertOpen, setIsAlertOpen] = useState(false);
 
   const searchParams = useSearchParams();
   useEffect(() => {
@@ -33,9 +45,15 @@ export default function Page() {
   const findPath = async (classCode) => {
     if (!classCode) return;
     const code = classCode.replace(/\s+/g, "").toUpperCase();
-    setMapsCode(code);
     const data = await fetchData(code);
     console.log("DATA", data);
+
+    if (!data.cardDescriptions || !data.imageNames) {
+      setIsAlertOpen(true);
+      return;
+    }
+
+    setMapsCode(code);
     setClassData(data);
     createPath(data);
     setMyKey((prevKey) => prevKey + 1);
@@ -120,6 +138,31 @@ export default function Page() {
           className="slide-in"
         />
       )}
+
+      <AlertDialog open={isAlertOpen} onOpenChange={setIsAlertOpen}>
+        <AlertDialogContent className="bg-black text-white border-0 w-[350px] md:w-auto">
+          <AlertDialogHeader>
+            <AlertDialogTitle className="text-2xl mb-5 font-bold">Invalid Class Code</AlertDialogTitle>
+            <AlertDialogDescription className="text-white text-lg">
+              The class code is invalid. Please check and try again, or view the{" "}
+              <Link
+                href="/allClasses"
+                className="text-white font-bold text-md"
+              >
+              full class list
+              </Link>
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogAction
+              onClick={() => setIsAlertOpen(false)}
+              className="bg-blue-700 text-white hover:bg-blue-600"
+            >
+              OK
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </main>
   );
 }
