@@ -37,6 +37,7 @@ const ClassMap = ({ mapsCode, view }) => {
     : { width: "400px", height: "300px" };
 
   const { isLoaded } = useJsApiLoader({
+    id: 'google-map-script',
     googleMapsApiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY,
   });
 
