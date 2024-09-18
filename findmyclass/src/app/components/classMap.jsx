@@ -18,7 +18,7 @@ const ClassMap = ({ mapsCode, view }) => {
     MINS: { lat: 43.5342, lng: -80.232 },
     MACS: { lat: 43.5343, lng: -80.2327 },
     CRSC: { lat: 43.5318, lng: -80.2246 },
-    LIBRARY: { lat: 43.5315, lng: -80.2276 },
+    LIBRARY: { lat: 43.5318, lng: -80.2246 }
   };
   let coordinates = "";
 
@@ -28,7 +28,10 @@ const ClassMap = ({ mapsCode, view }) => {
     coordinates = { lat: 43.5324, lng: -80.2252 };
   } else if (mapsCode.slice(0, 2) === "ZAV") {
     coordinates = { lat: 43.531, lng: -80.2272 };
-  } else {
+  } else if (mapsCode === "LIBRARY") {
+    coordinates = { lat: 43.5315, lng: -80.2276 };
+  } 
+  else {
     coordinates = classCoordinates[mapsCode.slice(0, 4)];
   }
 
