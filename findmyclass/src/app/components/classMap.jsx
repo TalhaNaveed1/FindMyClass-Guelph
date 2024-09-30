@@ -18,7 +18,8 @@ const ClassMap = ({ mapsCode, view }) => {
     MINS: { lat: 43.5342, lng: -80.232 },
     MACS: { lat: 43.5343, lng: -80.2327 },
     CRSC: { lat: 43.5318, lng: -80.2246 },
-    LIBRARY: { lat: 43.5318, lng: -80.2246 }
+    LIBRARY: { lat: 43.5318, lng: -80.2246 },
+    RICH: { lat:43.5314, lng: -80.2249}
   };
   let coordinates = "";
 

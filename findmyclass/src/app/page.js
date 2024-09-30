@@ -116,7 +116,7 @@ function PageContent() {
           <input
             type="text"
             className="p-3 w-full h-12 md:h-16 rounded-xl"
-            placeholder="Enter a class code (e.g., ROZH103)"
+            placeholder="Enter a classroom (e.g., ROZH103)"
             onChange={updateInput}
             value={inputValue}
           />
@@ -141,14 +141,13 @@ function PageContent() {
       <AlertDialog open={isAlertOpen} onOpenChange={setIsAlertOpen}>
         <AlertDialogContent className="bg-black text-white border-0 w-[350px] md:w-auto">
           <AlertDialogHeader>
-            <AlertDialogTitle className="text-2xl mb-5 font-bold">Invalid Class Code</AlertDialogTitle>
+            <AlertDialogTitle className="text-2xl mb-5 font-bold">
+              Invalid Class Code
+            </AlertDialogTitle>
             <AlertDialogDescription className="text-white text-lg">
               The class code is invalid. Please check and try again, or view the{" "}
-              <Link
-                href="/allClasses"
-                className="text-white font-bold text-md"
-              >
-              full class list here
+              <Link href="/allClasses" className="text-white font-bold text-md">
+                full class list here
               </Link>
             </AlertDialogDescription>
           </AlertDialogHeader>
@@ -168,7 +167,13 @@ function PageContent() {
 
 export default function Page() {
   return (
-    <Suspense fallback={<div className="bg-black text-white font-semibold flex text-center">Loading...</div>}>
+    <Suspense
+      fallback={
+        <div className="bg-black text-white font-semibold flex text-center">
+          Loading...
+        </div>
+      }
+    >
       <PageContent />
     </Suspense>
   );
