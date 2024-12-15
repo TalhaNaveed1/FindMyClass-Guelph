@@ -120,6 +120,13 @@ function PageContent() {
             onChange={updateInput}
             value={inputValue}
           />
+          <button type="submit" className="pl-2 w-24">
+            <img
+              src="/images/search_click.png"
+              alt="Search Click"
+              className="h-12 md:h-16 slide-in"
+            />
+          </button>
         </form>
 
         <Link
@@ -169,7 +176,7 @@ export default function Page() {
   return (
     <Suspense
       fallback={
-        <div className="bg-black text-white font-semibold flex text-center">
+        <div className="flex bg-black text-white font-semibold text-center">
           Loading...
         </div>
       }
