@@ -7,18 +7,23 @@ FindMyClass is an innovative solution for all students at the University of Guel
 ## Features
 
 - **Step-by-Step Navigation**: Clear, concise instructions with real-world photos to guide students across the University of Guelph campus.
-- **Time Estimation**: A K-Nearest Neighbors (KNN) machine learning algorithm predicts the time required to reach each class based on various parameters.
-- **User-Friendly Interface**: Built with Next.js, the app is fast, responsive, and accessible across devices.
+- **Time Estimation**: A K-Nearest Neighbors (KNN) machine learning algorithm predicts the time required to reach each class based on parameters such as day of week, time, and month.
+- **User-Friendly Interface**: Built with Next.js, TailwindCSS, and ShadcnUI the app is fast, responsive, and accessible across devices.
 - **Database Integration**: Utilizes Supabase for efficient and reliable storage of class data and navigation steps.
 
+## Data Source
+There is no data available on foot traffic for the University of Guelph, so I knew I had to improvise. The University of Guelph's institutional repository posted an analysis report on the City of Guelph's transportation data for 2016-2017. This report contains transportation data for every major intersection in Guelph, and I focused on the two streets that surround the University, which include Stone Road and College Avenue. The analyses and figures for these streets provided by the report were enough data that was suitable for the algorithm.
+
+Analysis Source: [**City of Guelph 2016-2017 Active Transportation Data Collection Report**](https://atrium.lib.uoguelph.ca/items/05b30416-b82b-4b0a-b101-ddb1bf63dea2)
 
 ## Technologies Used
 
--[**Next.js**](https://nextjs.org/): React-based framework for building user-friendly and performant interfaces.
--[**Python**](https://nextjs.org/): For styling the app with a modern and responsive design.
--[**Flask**](https://flask.palletsprojects.com/): Lightweight WSGI framework for building the REST API.
--[**Supabase**](https://supabase.com/): A Postgres-based database service for managing class locations, photos, and other app data.
--[**Vercel**](https://nextjs.org/): For styling the app with a modern and responsive design.
+- **Next.js**: React-based framework for building user-friendly and performant interfaces. Used to create an aesthetic
+- **TailwindCSS**: Utilized for styling the app to create an aesthetic and responsive layout.
+- **Python**: Used for backend algorithm and data processing.
+- **Flask**: Utilized to create the RESTful API and connecting the frontend and backend.
+- **Supabase**: A Postgres-based database service for managing class locations, photos, and other app data.
+- **Vercel**: Utilized as the hosting platform for deplying the application.
 
 
 ## Installation & Steps to run locally
