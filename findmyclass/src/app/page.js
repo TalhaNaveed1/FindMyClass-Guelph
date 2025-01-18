@@ -116,7 +116,7 @@ function PageContent() {
           <input
             type="text"
             className="p-3 w-full h-12 md:h-16 rounded-xl"
-            placeholder="Enter a classroom (e.g., ROZH103)"
+            placeholder="(e.g., ROZH103, THRN1027)"
             onChange={updateInput}
             value={inputValue}
           />
